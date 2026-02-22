@@ -3,67 +3,51 @@ using UnityEngine.UI;
 
 public class CameraFade : MonoBehaviour
 {
-    protected static GameObject cameraFade;
     protected static CameraFade fade;
+    protected static GameObject cameraFade;
 
-    protected Color fadeInColor  = new Color(0.5f, 0.5f, 0.5f, 0f);
-    protected Color fadeOutColor = new Color(0.5f, 0.5f, 0.5f, 1f);
+    public Color fadeInColor = new Color(0.5f, 0.5f, 0.5f, 0f);
+    public Color fadeOutColor = new Color(0.5f, 0.5f, 0.5f, 1f);
 
     protected float m_time;
     protected bool isfadein;
     protected bool isfadeout;
     protected float lasttime;
 
-    protected RawImage fadeImage;
+    private Image fadeImage;
 
     public void Init()
     {
-        Canvas canvas = gameObject.AddComponent<Canvas>();
+        Canvas canvas = cameraFade.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 999999;
-
-        gameObject.AddComponent<CanvasScaler>();
-        gameObject.AddComponent<GraphicRaycaster>();
-
-        GameObject imageObj = new GameObject("FadeImage");
-        imageObj.transform.SetParent(transform, false);
-
-        fadeImage = imageObj.AddComponent<RawImage>();
-        fadeImage.texture = CameraTexture(Color.black);
+        canvas.sortingOrder = 10000;
+        GameObject imgObj = new GameObject("FadeImage");
+        imgObj.transform.SetParent(cameraFade.transform, false);
+        fadeImage = imgObj.AddComponent<Image>();
+        fadeImage.rectTransform.anchorMin = Vector2.zero;
+        fadeImage.rectTransform.anchorMax = Vector2.one;
+        fadeImage.rectTransform.offsetMin = Vector2.zero;
+        fadeImage.rectTransform.offsetMax = Vector2.zero;
         fadeImage.color = fadeInColor;
-
-        RectTransform rt = fadeImage.rectTransform;
-        rt.anchorMin = Vector2.zero;
-        rt.anchorMax = Vector2.one;
-        rt.offsetMin = Vector2.zero;
-        rt.offsetMax = Vector2.zero;
-    }
-
-    protected Texture2D CameraTexture(Color color)
-    {
-        Texture2D tex = new Texture2D(1, 1, TextureFormat.ARGB32, false);
-        tex.SetPixel(0, 0, color);
-        tex.Apply();
-        return tex;
     }
 
     public static void CameraFadeOut(float time)
     {
         Check();
-        if (fade != null) fade.FadeOut(time);
+        fade.FadeOut(time);
     }
 
     public static void CameraFadeIn(float time)
     {
         Check();
-        if (fade != null) fade.FadeIn(time);
+        fade.FadeIn(time);
     }
 
     public static void Clear()
     {
         if (cameraFade != null)
         {
-            Object.Destroy(cameraFade);
+            Destroy(cameraFade);
             cameraFade = null;
             fade = null;
         }
@@ -81,7 +65,7 @@ public class CameraFade : MonoBehaviour
 
     protected void FadeOut(float time)
     {
-        m_time = Mathf.Max(0.01f, time);
+        m_time = time;
         isfadeout = true;
         isfadein = false;
         lasttime = 0f;
@@ -89,7 +73,7 @@ public class CameraFade : MonoBehaviour
 
     protected void FadeIn(float time)
     {
-        m_time = Mathf.Max(0.01f, time);
+        m_time = time;
         isfadein = true;
         isfadeout = false;
         lasttime = 0f;
@@ -97,18 +81,19 @@ public class CameraFade : MonoBehaviour
 
     private void Update()
     {
-        if ((isfadeout || isfadein) && fadeImage != null)
+        if (isfadeout || isfadein)
         {
             lasttime += Time.deltaTime;
-            float t = Mathf.Clamp01(lasttime / m_time);
-
-            if (isfadeout)
+            if (fadeImage != null)
             {
-                fadeImage.color = Color.Lerp(fadeInColor, fadeOutColor, t);
-            }
-            else if (isfadein)
-            {
-                fadeImage.color = Color.Lerp(fadeOutColor, fadeInColor, t);
+                if (isfadeout)
+                {
+                    fadeImage.color = Color.Lerp(fadeInColor, fadeOutColor, Mathf.Clamp01(lasttime / m_time));
+                }
+                else if (isfadein)
+                {
+                    fadeImage.color = Color.Lerp(fadeOutColor, fadeInColor, Mathf.Clamp01(lasttime / m_time));
+                }
             }
 
             if (lasttime >= m_time)

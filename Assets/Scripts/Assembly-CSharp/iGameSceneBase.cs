@@ -306,10 +306,10 @@ public class iGameSceneBase
 		}
 		if (m_Input == null)
 		{
+
 #if UNITY_EDITOR
 			m_Input = new CControlWindows();
-
-#elif UNITY_STANDALONE_WIN
+#elif UNITY_STANDALONE
 			m_Input = new CControlWindows();
 
 #elif UNITY_IOS || UNITY_ANDROID

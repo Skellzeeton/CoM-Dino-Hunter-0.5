@@ -504,6 +504,7 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/CStartPoint.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIScrollListObject.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/CTaskInfoInfinite.cs" />
+    <Compile Include="Assets/Scripts/Assembly-CSharp/CSlipAssistant.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/Properties/AssemblyInfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUISkillListInfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/lgTypeCheckTask.cs" />
@@ -1361,9 +1362,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/PackageCache/com.unity.analytics@6cc66d58ac08/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="SmartFox2">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Assets/Plugins/SmartFox2.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll</HintPath>

@@ -42,6 +42,8 @@ public class iGameUIBase : MonoBehaviour
 	protected Transform[] m_TeamMateNode;
 
 	protected int m_nCurWeaponIndex;
+	
+	protected CSlipAssistant m_SlipAssist;
 
 	private void Awake()
 	{
@@ -93,6 +95,7 @@ public class iGameUIBase : MonoBehaviour
 		}
 		Debug.Log("Screen size = " + Screen.width + " * " + Screen.height);
 		Debug.Log("Screen scale multiplier = " + num3);
+		m_SlipAssist = new CSlipAssistant();
 	}
 
 	private void Update()
@@ -971,15 +974,19 @@ public class iGameUIBase : MonoBehaviour
 
 	protected void Event_SlipScreen(Vector2 delta)
 	{
+		if (m_GameScene.GameStatus != iGameSceneBase.kGameStatus.Gameing && m_GameScene.GameStatus != iGameSceneBase.kGameStatus.GameOver_ShowTime)
+		{
+			return;
+		}
 		CCharUser user = m_GameScene.GetUser();
 		iCameraTrail iCameraTrail2 = m_GameScene.GetCamera();
-		if (!(delta != Vector2.zero))
+		if (!(delta != Vector2.zero) || !m_SlipAssist.Slip(delta))
 		{
 			return;
 		}
 		if (delta.x != 0f)
 		{
-			iCameraTrail2.Yaw(delta.x / (iMacroDefine.SlipRateWidth * (float)Screen.width));
+			iCameraTrail2.Yaw(m_SlipAssist.m_fCurFrameYaw * 0.5f);
 			if (user.IsCanAim())
 			{
 				user.SetYaw(iCameraTrail2.GetYaw());
@@ -987,7 +994,11 @@ public class iGameUIBase : MonoBehaviour
 		}
 		if (delta.y != 0f)
 		{
-			iCameraTrail2.Pitch(delta.y / (iMacroDefine.SlipRateHeight * (float)Screen.height));
+			iCameraTrail2.Pitch(m_SlipAssist.m_fCurFramePitch);
+		}
+		if (user.IsCanAim() && (delta.x != 0f || delta.y != 0f))
+		{
+			user.LookAt(iCameraTrail2.ScreenPointToRay(m_GameState.ScreenCenter, 0f).GetPoint(1000f));
 		}
 		if (Mathf.Abs(delta.x) > 1f && Mathf.Abs(delta.y) > 1f && m_GameScene.IsAssistAim())
 		{
@@ -997,24 +1008,25 @@ public class iGameUIBase : MonoBehaviour
 
 	protected void Event_SlipScreen()
 	{
+		if (m_GameScene.GameStatus != iGameSceneBase.kGameStatus.Gameing && m_GameScene.GameStatus != iGameSceneBase.kGameStatus.GameOver_ShowTime)
+		{
+			return;
+		}
 		CCharUser user = m_GameScene.GetUser();
 		iCameraTrail iCameraTrail2 = m_GameScene.GetCamera();
 		Vector2 wheelOffSet = m_UIManager.mWheelShoot.WheelOffSet;
-		if (Mathf.Abs(wheelOffSet.x) < 0.5f && Mathf.Abs(wheelOffSet.y) < 0.5f)
+		if (!(Mathf.Abs(wheelOffSet.x) < 0.2f))
 		{
-			if (!m_GameScene.IsAssistAim())
+			iCameraTrail2.Yaw(wheelOffSet.x * 1f);
+			if (user.IsCanAim())
 			{
-				Debug.Log("start ");
-				m_GameScene.AssistAim_Start();
+				user.SetYaw(iCameraTrail2.GetYaw());
 			}
-			return;
+			if (user.IsCanAim())
+			{
+				user.LookAt(iCameraTrail2.ScreenPointToRay(m_GameState.ScreenCenter, 0f).GetPoint(1000f));
+			}
 		}
-		iCameraTrail2.Yaw(wheelOffSet.x * 0.8f / (iMacroDefine.SlipRateWidth * (float)Screen.width));
-		if (user.IsCanAim())
-		{
-			user.SetYaw(iCameraTrail2.GetYaw());
-		}
-		iCameraTrail2.Pitch(wheelOffSet.y * 0.8f / (iMacroDefine.SlipRateHeight * (float)Screen.height));
 	}
 
 	protected void Event_Revive()
