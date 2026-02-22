@@ -2155,17 +2155,6 @@ public class iGameSceneBase
 		}
 		case kAssistAimState.Proccess:
 		{
-			if (m_AssistTarget == null || m_AssistTarget.isDead)
-			{
-				AssistAim_Start();
-				break;
-			}
-			Vector2 a = Camera.main.WorldToScreenPoint(m_AssistBone.position);
-			if (Vector2.Distance(a, vector) > 100f)
-			{
-				AssistAim_Start();
-				break;
-			}
 			m_fAssistAimRate += deltaTime;
 			Ray ray = Camera.main.ScreenPointToRay(vector);
 			Vector3 dirB = Vector3.Lerp(ray.direction, (m_AssistBone.position - ray.origin).normalized, m_fAssistAimRate);

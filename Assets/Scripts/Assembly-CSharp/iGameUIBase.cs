@@ -928,14 +928,6 @@ public class iGameUIBase : MonoBehaviour
 		if (!(user == null))
 		{
 			user.SetFire(bPressed);
-			if (bPressed)
-			{
-				m_GameScene.AssistAim_Start();
-			}
-			else
-			{
-				m_GameScene.AssistAim_Stop();
-			}
 		}
 	}
 
@@ -999,10 +991,6 @@ public class iGameUIBase : MonoBehaviour
 		if (user.IsCanAim() && (delta.x != 0f || delta.y != 0f))
 		{
 			user.LookAt(iCameraTrail2.ScreenPointToRay(m_GameState.ScreenCenter, 0f).GetPoint(1000f));
-		}
-		if (Mathf.Abs(delta.x) > 1f && Mathf.Abs(delta.y) > 1f && m_GameScene.IsAssistAim())
-		{
-			m_GameScene.AssistAim_Stop();
 		}
 	}
 

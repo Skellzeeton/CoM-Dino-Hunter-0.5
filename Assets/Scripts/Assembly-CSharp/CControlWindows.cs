@@ -107,22 +107,10 @@ public class CControlWindows : CControlBase
                 Ray r = m_Camera.ScreenPointToRay(m_GameState.ScreenCenter, 0f);
                 m_User.LookAt(r.GetPoint(1000f));
             }
-            if (Mathf.Abs(axisX) > 0.1f || Mathf.Abs(axisY) > 0.1f)
-            {
-                m_GameScene.AssistAim_Stop();
-            }
-            else if (m_User.IsFire() && !m_GameScene.IsAssistAim())
-            {
-                m_GameScene.AssistAim_Start();
-            }
         }
         else
         {
             ApplyCursorLock(false);
-            if (!m_User.IsFire() && m_GameScene.IsAssistAim())
-            {
-                m_GameScene.AssistAim_Stop();
-            }
         }
         if (m_User.IsCanAttack())
         {
@@ -198,23 +186,11 @@ public class CControlWindows : CControlBase
     private void ToggleMouseLock()
     {
         m_mouseLocked = !m_mouseLocked;
-        if (m_mouseLocked)
-        {
-            m_GameScene.AssistAim_Stop();
-        }
-        else
-        {
-            if (!m_User.IsFire() && m_GameScene.IsAssistAim())
-            {
-                m_GameScene.AssistAim_Stop();
-            }
-        }
-
         ApplyCursorLock(m_mouseLocked);
     }
     
     private void ApplyCursorLock(bool locked)
     {
-        Cursor.visible = !locked;
+        Cursor.lockState = locked ? CursorLockMode.Locked : CursorLockMode.None;
     }
 }
