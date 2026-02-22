@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<StartPoint id="140111" color="0,1,0,1">
+  <Point id="1" pos="-92.17,0.06,-77.80" size="3.00,0.10,3.00" />
+  <Point id="2" pos="103.48,0.12,-80.87" size="3.00,0.10,3.00" />
+  <Point id="3" pos="-91.99,0.24,22.01" size="3.00,0.10,3.00" />
+  <Point id="4" pos="100.74,0.14,17.71" size="3.00,0.10,3.00" />
+</StartPoint>

@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1895430040444280
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4247617790877266}
+  - 114: {fileID: 114639271216500452}
+  m_Layer: 0
+  m_Name: yanjiang01_open
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1303037180801897
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4614720680079624}
+  - 114: {fileID: 114884214048275043}
+  - 114: {fileID: 114678233788118601}
+  m_Layer: 0
+  m_Name: Roam1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1657494498007214
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4344958846414029}
+  m_Layer: 0
+  m_Name: focus1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1589692571899740
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4573643405768894}
+  - 114: {fileID: 114725471754555619}
+  m_Layer: 0
+  m_Name: yanjiang01_open_camerpath01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1172327718456381
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4386611088142860}
+  - 114: {fileID: 114812782357053110}
+  - 114: {fileID: 114815630066862732}
+  m_Layer: 0
+  m_Name: Roam3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1519116054065491
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4920770527803397}
+  - 114: {fileID: 114444036214011359}
+  m_Layer: 0
+  m_Name: yanjiang01_open_camerpath03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1137830767327060
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4385309300885825}
+  - 114: {fileID: 114672299371656291}
+  m_Layer: 0
+  m_Name: yanjiang01_open_focuspath01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1560513086245077
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4467214503838784}
+  - 114: {fileID: 114205351996053305}
+  - 114: {fileID: 114828705872256766}
+  m_Layer: 0
+  m_Name: Roam2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1117687647326782
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4188037339504180}
+  - 114: {fileID: 114896634810080596}
+  m_Layer: 0
+  m_Name: yanjiang01_open_camerpath02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1633223079568984
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4859215063311876}
+  - 114: {fileID: 114426238112762738}
+  m_Layer: 0
+  m_Name: yanjiang01_open_focuspath02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4247617790877266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1895430040444280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4614720680079624}
+  - {fileID: 4386611088142860}
+  - {fileID: 4467214503838784}
+  m_Father: {fileID: 0}
+--- !u!114 &114639271216500452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1895430040444280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa9f8306ac161e83415a10e79407e355, type: 3}
+  m_Name:
+  isAutoStart: 0
+  roamlist:
+  - cameraRoam: {fileID: 114812782357053110}
+    delaytime: 0
+    lasttime: 4
+  - cameraRoam: {fileID: 114884214048275043}
+    delaytime: 0.6
+    lasttime: 3.5
+  - cameraRoam: {fileID: 114205351996053305}
+    delaytime: 0.6
+    lasttime: 6
+--- !u!4 &4614720680079624
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303037180801897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4344958846414029}
+  - {fileID: 4573643405768894}
+  m_Father: {fileID: 4247617790877266}
+--- !u!114 &114884214048275043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303037180801897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959719bcc6abad5714e086a316b29e9f, type: 3}
+  m_Name:
+  type: 0
+  m_camera: {fileID: 0}
+  cameraPath: {fileID: 114725471754555619}
+  cameraTrackType: 0
+  cameraTime: 7
+  isCameraSmooth: 0
+  cameraFocusType: 0
+  cameraTrackPathType: 0
+  m_focus: {fileID: 1657494498007214}
+  focusPath: {fileID: 0}
+  focusTrackType: 0
+  focusTime: 0
+  isFocusSmooth: 0
+  focusTrackPathType: 0
+--- !u!114 &114678233788118601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303037180801897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d07781e4c7f701119d4a3e7a2ad2608, type: 3}
+  m_Name:
+  isFadeIn: 1
+  fadeInTime: 0.3
+  isFadeOut: 1
+  fadeOutTime: 0.3
+--- !u!4 &4344958846414029
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1657494498007214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -123.73448, y: 40.48128, z: -2.17453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4614720680079624}
+--- !u!4 &4573643405768894
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589692571899740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.032825, y: 10.883001, z: -38.91066}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4614720680079624}
+--- !u!114 &114725471754555619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589692571899740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0fd29ffbe3ad2a4c9a0f3d2c227a81, type: 3}
+  m_Name:
+  pathName: yanjiang01_open_camerpath01
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 0, y: 0, z: 0}
+  - {x: 10.604332, y: -3.415371, z: 27.218994}
+  - {x: 10.257137, y: -3.1526833, z: 56.386387}
+  nodeCount: 3
+  type: 1
+  initialized: 1
+  initialName: New Path 1
+  showtype: 1
+--- !u!4 &4386611088142860
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172327718456381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4920770527803397}
+  - {fileID: 4385309300885825}
+  m_Father: {fileID: 4247617790877266}
+--- !u!114 &114812782357053110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172327718456381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959719bcc6abad5714e086a316b29e9f, type: 3}
+  m_Name:
+  type: 1
+  m_camera: {fileID: 0}
+  cameraPath: {fileID: 114444036214011359}
+  cameraTrackType: 0
+  cameraTime: 7
+  isCameraSmooth: 0
+  cameraFocusType: 0
+  cameraTrackPathType: 0
+  m_focus: {fileID: 0}
+  focusPath: {fileID: 114672299371656291}
+  focusTrackType: 0
+  focusTime: 4.5
+  isFocusSmooth: 0
+  focusTrackPathType: 0
+--- !u!114 &114815630066862732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172327718456381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d07781e4c7f701119d4a3e7a2ad2608, type: 3}
+  m_Name:
+  isFadeIn: 1
+  fadeInTime: 0.3
+  isFadeOut: 1
+  fadeOutTime: 0.3
+--- !u!4 &4920770527803397
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1519116054065491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -39.005512, y: 14.61377, z: -55.769745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4386611088142860}
+--- !u!114 &114444036214011359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1519116054065491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0fd29ffbe3ad2a4c9a0f3d2c227a81, type: 3}
+  m_Name:
+  pathName: yanjiang01_open_camerpath03
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 10.421864, y: 3.2652397, z: -29.183365}
+  - {x: -1.1099434, y: 3.473114, z: -26.639816}
+  - {x: -16.421215, y: 3.3793182, z: -17.00354}
+  - {x: -22.262749, y: 1.9002132, z: 2.9969559}
+  - {x: -18.825844, y: 0.20633888, z: 27.48482}
+  nodeCount: 5
+  type: 1
+  initialized: 1
+  initialName: New Path 1
+  showtype: 1
+--- !u!4 &4385309300885825
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1137830767327060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.27533782, y: 4.1268244, z: -2.4959536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4386611088142860}
+--- !u!114 &114672299371656291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1137830767327060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0fd29ffbe3ad2a4c9a0f3d2c227a81, type: 3}
+  m_Name:
+  pathName: yanjiang01_open_focuspath01
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: -13.366025, y: -8.6956625, z: 35.1427}
+  - {x: 10.9005995, y: 0.10776615, z: -5.522208}
+  nodeCount: 2
+  type: 0
+  initialized: 1
+  initialName: New Path 2
+  showtype: 1
+--- !u!4 &4467214503838784
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560513086245077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0659428, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4188037339504180}
+  - {fileID: 4859215063311876}
+  m_Father: {fileID: 4247617790877266}
+--- !u!114 &114205351996053305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560513086245077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959719bcc6abad5714e086a316b29e9f, type: 3}
+  m_Name:
+  type: 1
+  m_camera: {fileID: 0}
+  cameraPath: {fileID: 114896634810080596}
+  cameraTrackType: 0
+  cameraTime: 8
+  isCameraSmooth: 0
+  cameraFocusType: 0
+  cameraTrackPathType: 0
+  m_focus: {fileID: 1657494498007214}
+  focusPath: {fileID: 114426238112762738}
+  focusTrackType: 0
+  focusTime: 5
+  isFocusSmooth: 0
+  focusTrackPathType: 0
+--- !u!114 &114828705872256766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560513086245077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d07781e4c7f701119d4a3e7a2ad2608, type: 3}
+  m_Name:
+  isFadeIn: 1
+  fadeInTime: 0.3
+  isFadeOut: 0
+  fadeOutTime: 0.3
+--- !u!4 &4188037339504180
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117687647326782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.0804386, y: 9.96611, z: 19.831224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4467214503838784}
+--- !u!114 &114896634810080596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117687647326782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0fd29ffbe3ad2a4c9a0f3d2c227a81, type: 3}
+  m_Name:
+  pathName: yanjiang01_open_camerpath02
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 2.2642975, y: 11.514843, z: 53.55197}
+  - {x: 17.41192, y: 4.3578167, z: 24.30137}
+  - {x: 15.223724, y: -0.14153194, z: -12.531054}
+  - {x: -24.957752, y: -7.3499384, z: -63.784454}
+  nodeCount: 4
+  type: 1
+  initialized: 1
+  initialName: New Path 1
+  showtype: 1
+--- !u!4 &4859215063311876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1633223079568984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.720345, y: 3.8235474, z: -12.812658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4467214503838784}
+--- !u!114 &114426238112762738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1633223079568984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0fd29ffbe3ad2a4c9a0f3d2c227a81, type: 3}
+  m_Name:
+  pathName: yanjiang01_open_focuspath02
+  pathColor: {r: 0, g: 1, b: 1, a: 1}
+  nodes:
+  - {x: 0, y: 0, z: 0}
+  - {x: -6.4923115, y: -1.1501198, z: 31.231092}
+  nodeCount: 2
+  type: 0
+  initialized: 1
+  initialName: New Path 1
+  showtype: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1895430040444280}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

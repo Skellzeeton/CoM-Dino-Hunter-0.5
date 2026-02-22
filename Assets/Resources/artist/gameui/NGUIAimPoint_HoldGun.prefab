@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1769634860145609
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4833382773329238}
+  - 114: {fileID: 114194463597379026}
+  m_Layer: 8
+  m_Name: NGUIAimPoint_HoldGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1725754053733596
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4813027256949083}
+  - 114: {fileID: 114933691994036576}
+  m_Layer: 8
+  m_Name: arrow4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1679628477242995
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4993173092122626}
+  - 114: {fileID: 114420845679101931}
+  m_Layer: 8
+  m_Name: arrow2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1769262533781125
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4287146277655992}
+  - 114: {fileID: 114259884259280641}
+  m_Layer: 8
+  m_Name: arrow3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1226560637785702
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4060060517495658}
+  - 114: {fileID: 114733465294269486}
+  m_Layer: 8
+  m_Name: arrow1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4833382773329238
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769634860145609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4813027256949083}
+  - {fileID: 4993173092122626}
+  - {fileID: 4287146277655992}
+  - {fileID: 4060060517495658}
+  m_Father: {fileID: 0}
+--- !u!114 &114194463597379026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769634860145609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c48638b75f3b728bcb4a7311dfc5ae2, type: 3}
+  m_Name:
+  Min: 12
+  Max: 20
+  fExpand: 8
+  fRecover: 8
+  mArrow1: {fileID: 4060060517495658}
+  mArrow2: {fileID: 4993173092122626}
+  mArrow3: {fileID: 4287146277655992}
+  mArrow4: {fileID: 4813027256949083}
+--- !u!4 &4813027256949083
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725754053733596}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: -4.371139E-08}
+  m_LocalPosition: {x: 9.411626, y: -24.375, z: 0}
+  m_LocalScale: {x: 12, y: 11, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4833382773329238}
+--- !u!114 &114933691994036576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725754053733596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
+  mColor: {r: 0, g: 1, b: 0, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mSpriteName: aimpoint_holdgun
+--- !u!4 &4993173092122626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1679628477242995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.457361, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 11, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4833382773329238}
+--- !u!114 &114420845679101931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1679628477242995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
+  mColor: {r: 0, g: 1, b: 0, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mSpriteName: aimpoint_holdgun
+--- !u!4 &4287146277655992
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769262533781125}
+  m_LocalRotation: {x: -4.371139E-08, y: -4.371139E-08, z: -1, w: 1.9106855E-15}
+  m_LocalPosition: {x: -33.463554, y: -25.46875, z: 0}
+  m_LocalScale: {x: 12, y: 11, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4833382773329238}
+--- !u!114 &114259884259280641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769262533781125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
+  mColor: {r: 0, g: 1, b: 0, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mSpriteName: aimpoint_holdgun
+--- !u!4 &4060060517495658
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226560637785702}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.371139E-08}
+  m_LocalPosition: {x: -31.023502, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 11, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4833382773329238}
+--- !u!114 &114733465294269486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226560637785702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
+  mColor: {r: 0, g: 1, b: 0, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mSpriteName: aimpoint_holdgun
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1769634860145609}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
