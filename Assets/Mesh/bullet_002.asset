@@ -11,8 +11,8 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 56
-    topology: 1
+    indexCount: 72
+    topology: 0
     baseVertex: 0
     firstVertex: 0
     vertexCount: 33
@@ -49,11 +49,11 @@ Mesh:
   m_VariableBoneCountWeights:
     m_Data: 
   m_MeshCompression: 0
-  m_IsReadable: 1
+  m_IsReadable: 0
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 080007000500060006001a001a001a00130000001100010012001200190019001c000200140003001b001b00200020001f0009000d000a000e000e00100010000c000f000b001d001e001e00170017001700150016001800180001000100000004001a001a0003000300020004001900
+  m_IndexBuffer: 08000700050005000700060013001a0000001300000011001100000001001100010012001c00190002001c0002001400140002000300140003001b001f00200009001f0009000d000d0009000a000d000a000e000c0010000f000c000f000b000b000f001d000b001d001e00170015001600160015001800010000000400040000001a00030002000400040002001900
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 33
@@ -177,7 +177,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   'm_MeshMetrics[0]': 1
   'm_MeshMetrics[1]': 1
-  m_MeshOptimizationFlags: -1
+  m_MeshOptimizationFlags: 1
   m_StreamData:
     serializedVersion: 2
     offset: 0

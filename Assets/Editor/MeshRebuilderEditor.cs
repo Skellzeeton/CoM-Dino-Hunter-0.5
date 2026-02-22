@@ -85,7 +85,7 @@ public class MeshRebuilderEditor : EditorWindow
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
                 AssetDatabase.ImportAsset(assetPath, ImportAssetOptions.ForceUpdate);
-                Debug.Log("Mesh overwritten and renamed to: " + originalFileName + "  (" + assetPath + ")");
+                //Debug.Log("Mesh overwritten and renamed to: " + originalFileName + "  (" + assetPath + ")");
             }
             else
             {
