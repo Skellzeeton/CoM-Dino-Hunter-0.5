@@ -877,6 +877,7 @@
     <None Include="Assets/Resources/_config/iap.txt" />
     <None Include="Assets/TextAsset/Goods_cfg.txt" />
     <None Include="Assets/Shader/ModelEdge.shader" />
+    <None Include="Assets/Shader/COL_2S_AB.shader" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_110101.txt" />
     <None Include="Assets/Resources/_config/character.txt" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_100101.txt" />

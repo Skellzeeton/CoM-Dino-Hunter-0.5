@@ -36,24 +36,19 @@ public class UIAtlas : MonoBehaviour
 		Pixels = 0,
 		TexCoords = 1
 	}
-
-	[HideInInspector]
+	
 	[SerializeField]
 	private Material material;
 
-	[HideInInspector]
 	[SerializeField]
 	private List<Sprite> sprites = new List<Sprite>();
 
 	[SerializeField]
-	[HideInInspector]
 	private Coordinates mCoordinates;
 
-	[HideInInspector]
 	[SerializeField]
 	private float mPixelSize = 1f;
 
-	[HideInInspector]
 	[SerializeField]
 	private UIAtlas mReplacement;
 

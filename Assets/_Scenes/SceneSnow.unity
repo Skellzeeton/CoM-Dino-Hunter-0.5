@@ -924,7 +924,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &52
 GameObject:
@@ -968,7 +968,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &54
 GameObject:
@@ -1004,7 +1004,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &56
 GameObject:
@@ -1074,7 +1074,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &60
 GameObject:
@@ -1093,7 +1093,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &61
 GameObject:
@@ -1107,12 +1107,13 @@ GameObject:
   - component: {fileID: 894}
   - component: {fileID: 801}
   - component: {fileID: 988}
+  - component: {fileID: 797696274}
   m_Layer: 31
   m_Name: level6_sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &62
 GameObject:
@@ -1213,7 +1214,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &68
 GameObject:
@@ -1303,7 +1304,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &73
 GameObject:
@@ -1339,7 +1340,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &75
 GameObject:
@@ -1367,7 +1368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470}
-  - component: {fileID: 1109}
+  - component: {fileID: 1111}
   m_Layer: 0
   m_Name: DinoCapWorld_6
   m_TagString: Untagged
@@ -1409,7 +1410,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &79
 GameObject:
@@ -1563,7 +1564,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &88
 GameObject:
@@ -1665,7 +1666,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &94
 GameObject:
@@ -1824,7 +1825,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &103
 GameObject:
@@ -1843,7 +1844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &104
 GameObject:
@@ -1932,7 +1933,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &109
 GameObject:
@@ -1968,7 +1969,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &111
 GameObject:
@@ -1987,7 +1988,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &112
 GameObject:
@@ -2135,12 +2136,13 @@ GameObject:
   - component: {fileID: 907}
   - component: {fileID: 814}
   - component: {fileID: 1001}
+  - component: {fileID: 1694954145}
   m_Layer: 31
   m_Name: level6_shan_bj03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &121
 GameObject:
@@ -2176,7 +2178,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &123
 GameObject:
@@ -2231,7 +2233,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &126
 GameObject:
@@ -2250,7 +2252,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &127
 GameObject:
@@ -2422,7 +2424,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &137
 GameObject:
@@ -2491,7 +2493,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &141
 GameObject:
@@ -2510,7 +2512,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &142
 GameObject:
@@ -2529,7 +2531,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &143
 GameObject:
@@ -2667,7 +2669,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &151
 GameObject:
@@ -2703,7 +2705,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &153
 GameObject:
@@ -2756,7 +2758,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &156
 GameObject:
@@ -2926,7 +2928,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &166
 GameObject:
@@ -3029,7 +3031,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &172
 GameObject:
@@ -3188,7 +3190,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &181
 GameObject:
@@ -3202,12 +3204,13 @@ GameObject:
   - component: {fileID: 921}
   - component: {fileID: 828}
   - component: {fileID: 1015}
+  - component: {fileID: 991482042}
   m_Layer: 31
   m_Name: level6_shan_bj09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &182
 GameObject:
@@ -3226,7 +3229,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &183
 GameObject:
@@ -3245,7 +3248,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &184
 GameObject:
@@ -3295,12 +3298,13 @@ GameObject:
   - component: {fileID: 924}
   - component: {fileID: 831}
   - component: {fileID: 1018}
+  - component: {fileID: 843758044}
   m_Layer: 31
   m_Name: level6_sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &187
 GameObject:
@@ -3369,7 +3373,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &191
 GameObject:
@@ -3489,7 +3493,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &198
 GameObject:
@@ -3559,7 +3563,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &202
 GameObject:
@@ -3594,7 +3598,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &204
 GameObject:
@@ -3624,7 +3628,6 @@ GameObject:
   - component: {fileID: 599}
   - component: {fileID: 1283}
   - component: {fileID: 1284}
-  - component: {fileID: 1285}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -3666,7 +3669,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &208
 GameObject:
@@ -3685,7 +3688,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &209
 GameObject:
@@ -3704,7 +3707,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &210
 GameObject:
@@ -3791,7 +3794,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &215
 GameObject:
@@ -4114,12 +4117,13 @@ GameObject:
   - component: {fileID: 934}
   - component: {fileID: 841}
   - component: {fileID: 1028}
+  - component: {fileID: 359993964}
   m_Layer: 31
   m_Name: level6_shan_bj05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &234
 GameObject:
@@ -4155,7 +4159,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &236
 GameObject:
@@ -4191,7 +4195,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &238
 GameObject:
@@ -4295,7 +4299,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &244
 GameObject:
@@ -4314,7 +4318,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &245
 GameObject:
@@ -4384,7 +4388,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &249
 GameObject:
@@ -4584,7 +4588,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &260
 GameObject:
@@ -4603,7 +4607,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &261
 GameObject:
@@ -4729,7 +4733,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &268
 GameObject:
@@ -4818,7 +4822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &273
 GameObject:
@@ -4854,7 +4858,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &275
 GameObject:
@@ -4890,7 +4894,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &277
 GameObject:
@@ -4942,7 +4946,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &280
 GameObject:
@@ -4995,7 +4999,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &283
 GameObject:
@@ -5014,7 +5018,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &284
 GameObject:
@@ -5062,12 +5066,13 @@ GameObject:
   - component: {fileID: 952}
   - component: {fileID: 859}
   - component: {fileID: 1046}
+  - component: {fileID: 1922486715}
   m_Layer: 31
   m_Name: level6_shan_bj07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &287
 GameObject:
@@ -5086,7 +5091,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &288
 GameObject:
@@ -5122,7 +5127,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &290
 GameObject:
@@ -5141,7 +5146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &291
 GameObject:
@@ -5160,7 +5165,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &292
 GameObject:
@@ -5179,7 +5184,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &293
 GameObject:
@@ -5214,7 +5219,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &295
 GameObject:
@@ -5233,7 +5238,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &296
 GameObject:
@@ -5269,7 +5274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &298
 GameObject:
@@ -5389,7 +5394,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &305
 GameObject:
@@ -5534,7 +5539,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &313
 GameObject:
@@ -5570,7 +5575,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &315
 GameObject:
@@ -5639,7 +5644,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &319
 GameObject:
@@ -5848,7 +5853,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &331
 GameObject:
@@ -5917,7 +5922,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &335
 GameObject:
@@ -6107,7 +6112,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &346
 GameObject:
@@ -6196,7 +6201,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &351
 GameObject:
@@ -6302,7 +6307,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &357
 GameObject:
@@ -6321,7 +6326,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &358
 GameObject:
@@ -6357,7 +6362,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &360
 GameObject:
@@ -6371,12 +6376,13 @@ GameObject:
   - component: {fileID: 973}
   - component: {fileID: 880}
   - component: {fileID: 1067}
+  - component: {fileID: 409363387}
   m_Layer: 31
   m_Name: level6_shan_bj01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &361
 GameObject:
@@ -6464,7 +6470,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &366
 GameObject:
@@ -6483,7 +6489,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &367
 GameObject:
@@ -6610,7 +6616,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &374
 GameObject:
@@ -6699,7 +6705,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &379
 GameObject:
@@ -6926,7 +6932,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &392
 GameObject:
@@ -6945,7 +6951,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &393
 GameObject:
@@ -7015,7 +7021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!1 &397
 GameObject:
@@ -8955,7 +8961,7 @@ Transform:
   m_GameObject: {fileID: 118}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 174.50977, z: 0}
+  m_LocalPosition: {x: 0.5161149, y: 160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9868,7 +9874,7 @@ Transform:
   m_GameObject: {fileID: 176}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.5097656, z: 0}
+  m_LocalPosition: {x: 0.5161149, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10759,7 +10765,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 10000, z: 0}
-  m_LocalScale: {x: 0.0057471264, y: 0.0057471264, z: 0.0057471264}
+  m_LocalScale: {x: 0.00625, y: 0.00625, z: 0.00625}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 730}
@@ -10854,7 +10860,7 @@ Transform:
   m_GameObject: {fileID: 238}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 260.5, y: 174.50977, z: 0}
+  m_LocalPosition: {x: 366.96774, y: 160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11417,7 +11423,7 @@ Transform:
   m_GameObject: {fileID: 275}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -261.5, y: 174.50977, z: 0}
+  m_LocalPosition: {x: -366.96774, y: 160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11495,7 +11501,7 @@ Transform:
   m_GameObject: {fileID: 280}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -261.5, y: -173.49023, z: 0}
+  m_LocalPosition: {x: -366.96774, y: -160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11511,7 +11517,7 @@ Transform:
   m_GameObject: {fileID: 281}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 260.5, y: -173.49023, z: 0}
+  m_LocalPosition: {x: 366.96774, y: -160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12001,7 +12007,7 @@ Transform:
   m_GameObject: {fileID: 313}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -173.49023, z: 0}
+  m_LocalPosition: {x: 0.5161149, y: -160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14121,8 +14127,7 @@ MeshRenderer:
   m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 769a23eb2b5da8949aa4624da73bf704, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15471,8 +15476,7 @@ MeshRenderer:
   m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 769a23eb2b5da8949aa4624da73bf704, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15786,8 +15790,7 @@ MeshRenderer:
   m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 769a23eb2b5da8949aa4624da73bf704, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15831,8 +15834,7 @@ MeshRenderer:
   m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 769a23eb2b5da8949aa4624da73bf704, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16011,8 +16013,7 @@ MeshRenderer:
   m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 769a23eb2b5da8949aa4624da73bf704, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17094,8 +17095,7 @@ MeshRenderer:
   m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 769a23eb2b5da8949aa4624da73bf704, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17409,8 +17409,7 @@ MeshRenderer:
   m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 769a23eb2b5da8949aa4624da73bf704, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21120,22 +21119,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336}
   m_Enabled: 0
---- !u!111 &1109
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!124 &1110
 Behaviour:
   m_ObjectHideFlags: 0
@@ -21144,6 +21127,38 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52}
   m_Enabled: 1
+--- !u!114 &1111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4278190103
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: ad710102820501f3082ca78344704dba, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!198 &1112
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -26035,12 +26050,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: lvanniu
   mFillCenter: 1
 --- !u!114 &1126
@@ -26055,12 +26070,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang1
   mFillCenter: 1
 --- !u!114 &1127
@@ -26075,12 +26090,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang1
   mFillCenter: 1
 --- !u!114 &1128
@@ -26095,12 +26110,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: renwushibai
 --- !u!114 &1129
 MonoBehaviour:
@@ -26114,12 +26129,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1130
 MonoBehaviour:
@@ -26133,12 +26148,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.5137255, g: 0.5137255, b: 0.5137255, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: GOLDEARNED
   mMaxLineWidth: 0
   mEncoding: 1
@@ -26163,12 +26178,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.5137255, g: 0.5137255, b: 0.5137255, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 0
   mMaxLineWidth: 0
   mEncoding: 1
@@ -26193,12 +26208,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang1
   mFillCenter: 1
 --- !u!114 &1133
@@ -26213,12 +26228,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.13432837, g: 0.13432837, b: 0.13432837, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: whitepixel
 --- !u!114 &1134
 MonoBehaviour:
@@ -26244,12 +26259,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.5137255, g: 0.5137255, b: 0.5137255, a: 1}
   mPivot: 5
   mDepth: 4
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: GOLDBONUS
   mMaxLineWidth: 0
   mEncoding: 1
@@ -26274,12 +26289,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: lvanniu
   mFillCenter: 1
 --- !u!114 &1137
@@ -26408,12 +26423,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1145
 MonoBehaviour:
@@ -26447,12 +26462,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang2
   mFillCenter: 1
 --- !u!114 &1147
@@ -26480,12 +26495,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1149
 MonoBehaviour:
@@ -26512,12 +26527,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1151
 MonoBehaviour:
@@ -26544,12 +26559,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1153
 MonoBehaviour:
@@ -26589,12 +26604,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang2
   mFillCenter: 1
 --- !u!114 &1156
@@ -26609,12 +26624,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.51492536, g: 0.51492536, b: 0.51492536, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: EXPBONUS
   mMaxLineWidth: 0
   mEncoding: 1
@@ -26639,12 +26654,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
   mFillCenter: 1
 --- !u!114 &1158
@@ -26750,12 +26765,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_sheji
   mFillCenter: 1
 --- !u!114 &1165
@@ -26782,12 +26797,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.5137255, g: 0.5137255, b: 0.5137255, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 0
   mMaxLineWidth: 0
   mEncoding: 1
@@ -26812,12 +26827,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 0, b: 0, a: 1}
   mPivot: 3
   mDepth: 8
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: /999
   mMaxLineWidth: 0
   mEncoding: 1
@@ -26842,12 +26857,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 0, b: 0, a: 1}
   mPivot: 5
   mDepth: 8
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 999
   mMaxLineWidth: 0
   mEncoding: 1
@@ -26887,12 +26902,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1171
 MonoBehaviour:
@@ -26987,12 +27002,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.5137255, g: 0.5137255, b: 0.5137255, a: 1}
   mPivot: 5
   mDepth: 4
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 0
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27030,12 +27045,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 1
   mDepth: 100
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: whitepixel
 --- !u!114 &1179
 MonoBehaviour:
@@ -27063,12 +27078,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1181
 MonoBehaviour:
@@ -27082,12 +27097,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.14925373, g: 0.14925373, b: 0.14925373, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: tool_power
   mFillDirection: 4
   mFillAmount: 0
@@ -27104,12 +27119,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: tool_power
 --- !u!114 &1183
 MonoBehaviour:
@@ -27216,12 +27231,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1190
 MonoBehaviour:
@@ -27235,12 +27250,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27265,12 +27280,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1192
 MonoBehaviour:
@@ -27284,12 +27299,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 0.8601399, b: 0, a: 0.4627451}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
   mFillDirection: 0
   mFillAmount: 1
@@ -27320,12 +27335,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: '[11FF00]1647'
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27350,12 +27365,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27380,12 +27395,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.7176471, g: 0, b: 0, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
   mFillDirection: 0
   mFillAmount: 1
@@ -27465,12 +27480,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1202
@@ -27499,12 +27514,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 0.39215687}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_dengjibg
 --- !u!114 &1204
 MonoBehaviour:
@@ -27518,12 +27533,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 5
   mDepth: 5
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 9999/9999
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27548,12 +27563,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1206
@@ -27568,12 +27583,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
 --- !u!114 &1207
 MonoBehaviour:
@@ -27587,12 +27602,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27617,12 +27632,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1209
 MonoBehaviour:
@@ -27636,12 +27651,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 0
   mDepth: 5
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: objective
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27666,12 +27681,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1211
 MonoBehaviour:
@@ -27685,12 +27700,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.99607843, g: 0.2627451, b: 0.2627451, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
   mFillDirection: 0
   mFillAmount: 1
@@ -27707,12 +27722,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1213
@@ -27727,12 +27742,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang2
   mFillCenter: 1
 --- !u!114 &1214
@@ -27747,12 +27762,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: jineng_tx1
 --- !u!114 &1215
 MonoBehaviour:
@@ -27766,12 +27781,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1216
 MonoBehaviour:
@@ -27876,12 +27891,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 1250
   mMaxLineWidth: 0
   mEncoding: 1
@@ -27906,12 +27921,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1224
 MonoBehaviour:
@@ -27925,12 +27940,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1225
@@ -27959,12 +27974,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.24626863, g: 0.24626863, b: 0.24626863, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
 --- !u!114 &1227
 MonoBehaviour:
@@ -27990,12 +28005,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 3
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 999999
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28034,12 +28049,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: screenblood
   mFillCenter: 1
 --- !u!114 &1231
@@ -28073,12 +28088,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 5
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28103,12 +28118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_shuijing
   mFillCenter: 1
 --- !u!114 &1234
@@ -28137,12 +28152,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1236
@@ -28157,12 +28172,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 'LEVEL:'
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28187,12 +28202,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1238
 MonoBehaviour:
@@ -28222,12 +28237,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang2
   mFillCenter: 1
 --- !u!114 &1240
@@ -28242,12 +28257,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.86160105, g: 0.9701493, b: 0, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: lvanniu
   mFillCenter: 1
 --- !u!114 &1241
@@ -28276,12 +28291,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: xiaokonglong
 --- !u!114 &1243
 MonoBehaviour:
@@ -28295,12 +28310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1244
 MonoBehaviour:
@@ -28314,12 +28329,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28344,12 +28359,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1246
@@ -28417,12 +28432,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28447,12 +28462,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1251
@@ -28467,12 +28482,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: level-complete
 --- !u!114 &1252
 MonoBehaviour:
@@ -28518,12 +28533,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
   mFillCenter: 1
 --- !u!114 &1255
@@ -28538,12 +28553,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1256
@@ -28558,12 +28573,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28588,12 +28603,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang1
   mFillCenter: 1
 --- !u!114 &1258
@@ -28608,12 +28623,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1259
@@ -28628,12 +28643,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1260
@@ -28648,12 +28663,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 5
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28678,12 +28693,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: xiaokonglong
 --- !u!114 &1262
 MonoBehaviour:
@@ -28697,12 +28712,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 3
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: ->
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28809,12 +28824,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1269
 MonoBehaviour:
@@ -28828,12 +28843,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: GOLDEARNED
   mMaxLineWidth: 0
   mEncoding: 1
@@ -28872,12 +28887,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang1
   mFillCenter: 1
 --- !u!114 &1272
@@ -28909,12 +28924,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_zanting
   mFillCenter: 1
 --- !u!114 &1274
@@ -28929,12 +28944,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 0
   mDepth: 5
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: Get DinoEggX10
   mMaxLineWidth: 270
   mEncoding: 1
@@ -28959,12 +28974,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1276
@@ -28979,12 +28994,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 7
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: baoxiang
 --- !u!114 &1277
 MonoBehaviour:
@@ -28998,12 +29013,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -29028,12 +29043,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang1
 --- !u!114 &1279
 MonoBehaviour:
@@ -29047,12 +29062,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1280
@@ -29067,12 +29082,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_wuqibg
 --- !u!114 &1281
 MonoBehaviour:
@@ -29102,12 +29117,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dunxing
 --- !u!114 &1283
 MonoBehaviour:
@@ -29133,19 +29148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f5f26b7acaf40ebd3580a7fdc6fd07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a190c5201a10acd627b8cb7690d4a4c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateInterval: 0.5
 --- !u!114 &1286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29158,12 +29160,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1287
@@ -29178,12 +29180,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dunxing
 --- !u!114 &1288
 MonoBehaviour:
@@ -29197,12 +29199,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_shejibg
   mFillCenter: 1
 --- !u!114 &1289
@@ -29229,12 +29231,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -29275,12 +29277,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0, g: 0, b: 0, a: 0.39607844}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: whitepixel
 --- !u!114 &1293
 MonoBehaviour:
@@ -29308,12 +29310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1295
@@ -29328,12 +29330,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_jingyanbg
 --- !u!114 &1296
 MonoBehaviour:
@@ -29347,12 +29349,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1297
@@ -29367,12 +29369,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang2
   mFillCenter: 1
 --- !u!114 &1298
@@ -29387,12 +29389,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1299
@@ -29407,12 +29409,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 0.67058825}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
   mFillDirection: 0
   mFillAmount: 0.399
@@ -29429,12 +29431,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1301
@@ -29449,12 +29451,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1302
@@ -29469,12 +29471,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1303
 MonoBehaviour:
@@ -29488,12 +29490,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_dengjibg
 --- !u!114 &1304
 MonoBehaviour:
@@ -29507,12 +29509,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1305
@@ -29601,12 +29603,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -29650,12 +29652,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1311
@@ -29670,12 +29672,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -29700,12 +29702,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1313
@@ -29720,12 +29722,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1314
@@ -29740,12 +29742,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: tool_power
 --- !u!114 &1315
 MonoBehaviour:
@@ -29759,12 +29761,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: TAKE ALL
   mMaxLineWidth: 0
   mEncoding: 1
@@ -29789,12 +29791,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: '[11FF00]11'
   mMaxLineWidth: 0
   mEncoding: 1
@@ -29895,12 +29897,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 0.8601399, b: 0, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
   mFillDirection: 0
   mFillAmount: 1
@@ -29917,12 +29919,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1324
@@ -29937,12 +29939,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1325
 MonoBehaviour:
@@ -29956,12 +29958,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_shejibg
   mFillCenter: 1
 --- !u!114 &1326
@@ -29976,12 +29978,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang1
   mFillCenter: 1
 --- !u!114 &1327
@@ -29996,12 +29998,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 0.39215687}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_dengjibg
 --- !u!114 &1328
 MonoBehaviour:
@@ -30015,12 +30017,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: Achievement Compeleted
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30045,12 +30047,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mDepth: 100
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: whitepixel
   mFillCenter: 1
 --- !u!114 &1330
@@ -30077,12 +30079,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1332
@@ -30097,12 +30099,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: ede5c8c8ca4d817458e9330283d4caec, type: 2}
+  mTex: {fileID: 2800000, guid: 9cd21f9e5f6ad1e42a55a92bd3f52f3c, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114817817756059151, guid: 42ade54771cfe7f41bbf82eec4ea0478, type: 2}
+  mAtlas: {fileID: 114817817756059151, guid: 42ade54771cfe7f41bbf82eec4ea0478, type: 3}
   mSpriteName: Weapon003
   mFillCenter: 1
 --- !u!114 &1333
@@ -30194,12 +30196,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: EXPBONUS
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30224,12 +30226,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.14925373, g: 0.14925373, b: 0.14925373, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dunxing
   mFillDirection: 4
   mFillAmount: 0
@@ -30246,12 +30248,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang1
 --- !u!114 &1341
 MonoBehaviour:
@@ -30265,12 +30267,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 5
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 'HP:'
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30295,12 +30297,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30325,12 +30327,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1344
 MonoBehaviour:
@@ -30344,12 +30346,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1345
@@ -30383,12 +30385,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 3
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: ->
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30451,12 +30453,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
   mFillCenter: 1
 --- !u!114 &1350
@@ -30471,12 +30473,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1351
 MonoBehaviour:
@@ -30490,12 +30492,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1352
 MonoBehaviour:
@@ -30525,12 +30527,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0, g: 0.15686275, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_renwuxuetiaobai
   mFillDirection: 0
   mFillAmount: 1
@@ -30547,12 +30549,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.6492537, g: 0.6492537, b: 0.6492537, a: 1}
   mPivot: 4
   mDepth: 1
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 'Johnny Hello
 
 '
@@ -30579,12 +30581,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30609,12 +30611,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 1
   mDepth: 100
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: whitepixel
 --- !u!114 &1357
 MonoBehaviour:
@@ -30628,12 +30630,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085084c3f3923d3a23fcad80de61239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.14925373, g: 0.14925373, b: 0.14925373, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: tool_bullet
   mFillDirection: 4
   mFillAmount: 0
@@ -30650,12 +30652,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: tool_bullet
 --- !u!114 &1359
 MonoBehaviour:
@@ -30681,12 +30683,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 0, b: 0, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: REWARDS
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30711,12 +30713,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: level-complete
 --- !u!114 &1362
 MonoBehaviour:
@@ -30730,12 +30732,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 5
   mDepth: 4
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: GOLDBONUS
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30760,12 +30762,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -30790,12 +30792,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1365
 MonoBehaviour:
@@ -30919,12 +30921,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1373
@@ -30939,12 +30941,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_dengjibg
 --- !u!114 &1374
 MonoBehaviour:
@@ -30958,12 +30960,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1375
@@ -30978,12 +30980,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1376
@@ -31012,12 +31014,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31042,12 +31044,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1379
 MonoBehaviour:
@@ -31073,12 +31075,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 0, b: 0, a: 1}
   mPivot: 4
   mDepth: 100
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: jizhong_temp2
   mFillCenter: 1
 --- !u!114 &1381
@@ -31093,12 +31095,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1382
 MonoBehaviour:
@@ -31112,12 +31114,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_wuqibg
   mFillCenter: 1
 --- !u!114 &1383
@@ -31144,12 +31146,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 3
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 999999
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31174,12 +31176,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1386
@@ -31194,12 +31196,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1387
@@ -31214,12 +31216,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: lvanniu
   mFillCenter: 1
 --- !u!114 &1388
@@ -31285,12 +31287,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_fangxiang
   mFillCenter: 1
 --- !u!114 &1391
@@ -31319,12 +31321,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_jingbi
 --- !u!114 &1393
 MonoBehaviour:
@@ -31338,12 +31340,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_shuijing
 --- !u!114 &1394
 MonoBehaviour:
@@ -31357,12 +31359,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1395
 MonoBehaviour:
@@ -31376,12 +31378,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 5
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31406,12 +31408,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1397
@@ -31440,12 +31442,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1399
 MonoBehaviour:
@@ -31473,12 +31475,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 0, b: 0, a: 1}
   mPivot: 4
   mDepth: 0
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: MissionFailed!You Lose!
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31515,12 +31517,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: LV.10
   mMaxLineWidth: 0
   mEncoding: 0
@@ -31545,12 +31547,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_zidan
   mFillCenter: 1
 --- !u!114 &1404
@@ -31565,12 +31567,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1405
@@ -31633,12 +31635,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1409
@@ -31653,12 +31655,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.13432837, g: 0.13432837, b: 0.13432837, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: whitepixel
 --- !u!114 &1410
 MonoBehaviour:
@@ -31672,12 +31674,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.13432837, g: 0.13432837, b: 0.13432837, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: whitepixel
 --- !u!114 &1411
 MonoBehaviour:
@@ -31691,12 +31693,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: youxizhong_shejibg
   mFillCenter: 1
 --- !u!114 &1412
@@ -31751,12 +31753,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 3
   mDepth: 4
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 999999
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31795,12 +31797,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: REVIVE
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31825,12 +31827,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31931,12 +31933,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -31961,12 +31963,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang1
   mFillCenter: 1
 --- !u!114 &1426
@@ -31981,12 +31983,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1427
@@ -32001,12 +32003,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: cangkukuang1
   mFillCenter: 1
 --- !u!114 &1428
@@ -32021,12 +32023,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 0.79850745, g: 0.11918021, b: 0.11918021, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guanbi
   mFillCenter: 1
 --- !u!114 &1429
@@ -32041,12 +32043,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -32071,12 +32073,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: title_shuijing
 --- !u!114 &1431
 MonoBehaviour:
@@ -32115,12 +32117,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: guang2
 --- !u!114 &1433
 MonoBehaviour:
@@ -32134,12 +32136,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 0.8507463, g: 0.60877955, b: 0.15872134, a: 1}
   mPivot: 4
   mDepth: 3
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 5
   mMaxLineWidth: 0
   mEncoding: 1
@@ -32164,12 +32166,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: tool_bullet
 --- !u!114 &1435
 MonoBehaviour:
@@ -32183,12 +32185,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: dan
   mFillCenter: 1
 --- !u!114 &1436
@@ -32203,12 +32205,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476fef7aac5d71eee5b7a4892a6be913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
-  mTex: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
+  mTex: {fileID: 2800000, guid: f1b9efa525190bd42af87a230f8a9c9b, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 2}
+  mAtlas: {fileID: 114381556573440045, guid: 5acfb3ea2f0ffac4bba720eaab2d213d, type: 3}
   mSpriteName: neikuang2
   mFillCenter: 1
 --- !u!114 &1437
@@ -32223,12 +32225,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 0}
+  mMat: {fileID: 2100000, guid: 4bac417b1e2240f408cb2f57ba37359b, type: 2}
   mTex: {fileID: 0}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 6
-  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 2}
+  mFont: {fileID: 114327019265210473, guid: ad3dce368516c4a4ca5f639d46b644cc, type: 3}
   mText: 99
   mMaxLineWidth: 0
   mEncoding: 1
@@ -32260,11 +32262,11 @@ MonoBehaviour:
   mStatisticsBackground: {fileID: 107}
   mLabel1_1: {fileID: 1236}
   mLabel1_2: {fileID: 1433}
-  mLabel1_3: {fileID: 1262}
+  mLabel1_3: {fileID: 0}
   mLabel1_4: {fileID: 1316}
   mLabel2_1: {fileID: 1341}
   mLabel2_2: {fileID: 1222}
-  mLabel2_3: {fileID: 1346}
+  mLabel2_3: {fileID: 0}
   mLabel2_4: {fileID: 1194}
 --- !u!114 &1439
 MonoBehaviour:
@@ -32286,6 +32288,146 @@ MonoBehaviour:
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
   mClipSoftness: {x: 40, y: 40}
+--- !u!114 &359993964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!114 &409363387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!114 &797696274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!114 &843758044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!114 &991482042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!114 &1694954145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!114 &1922486715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
