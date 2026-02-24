@@ -9005,7 +9005,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1122}
-  - component: {fileID: 1965}
   - component: {fileID: 1967}
   m_Layer: 31
   m_Name: DinoCapWorld2
@@ -14246,7 +14245,7 @@ Transform:
   m_GameObject: {fileID: 213}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -366.96774, y: -160, z: 0}
+  m_LocalPosition: {x: -348.38712, y: -160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16797,7 +16796,7 @@ Transform:
   m_GameObject: {fileID: 378}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 366.96774, y: 160, z: 0}
+  m_LocalPosition: {x: 348.38712, y: 160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17931,7 +17930,7 @@ Transform:
   m_GameObject: {fileID: 452}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 366.96774, y: -160, z: 0}
+  m_LocalPosition: {x: 348.38712, y: -160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18402,7 +18401,7 @@ Transform:
   m_GameObject: {fileID: 482}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -366.96774, y: 160, z: 0}
+  m_LocalPosition: {x: -348.38712, y: 160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39716,22 +39715,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299}
   m_Enabled: 0
---- !u!111 &1965
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!124 &1966
 Behaviour:
   m_ObjectHideFlags: 0
@@ -40507,11 +40490,9 @@ MonoBehaviour:
   mStatisticsBackground: {fileID: 144}
   mLabel1_1: {fileID: 2234}
   mLabel1_2: {fileID: 2022}
-  mLabel1_3: {fileID: 0}
   mLabel1_4: {fileID: 2263}
   mLabel2_1: {fileID: 2211}
   mLabel2_2: {fileID: 2039}
-  mLabel2_3: {fileID: 0}
   mLabel2_4: {fileID: 2222}
 --- !u!114 &2008
 MonoBehaviour:

@@ -23,6 +23,7 @@ public class Scene_Main : MonoBehaviour
 
 	private void Start()
 	{
+		CUISound.GetInstance().Play("BGM_theme");
 	}
 
 	private void Update()

@@ -382,7 +382,7 @@ rewardmaterialcount
 	</gamelevel>
 
 
-	<gamelevel id="5019" BGM="BGM_Map01" BGM_ambience="Amb_Map01_Rainforest" scenename="yulin_shouwei06" isskyscene="false" nav_plane="0" bp_cfg="140101" gamewave="5019001,5019002,5019003,5019004" task="5019"  tpend_cfg="140401" sp_cfg_ground="140111" hp_cfg_def="1" dropgroup="15019" dropcount="1" dropcountrate="100" exp="598"  gold="359" desc="Hold out 5 waves of dino" name="Ward off Dino Invasion">
+	<gamelevel id="5019" BGM="BGM_Map01" BGM_ambience="Amb_Map01_Rainforest" scenename="yulin_shouwei06" isskyscene="false" nav_plane="0" bp_cfg="140101" gamewave="5019001,5019002,5019003,5019004,5019005" task="5019"  tpend_cfg="140401" sp_cfg_ground="140111" hp_cfg_def="1" dropgroup="15019" dropcount="1" dropcountrate="100" exp="598"  gold="359" desc="Hold out 5 waves of dino" name="Ward off Dino Invasion">
 		<MonsterNumLimit>
 			<limit type="1" maxnumber="18" />
 		</MonsterNumLimit>

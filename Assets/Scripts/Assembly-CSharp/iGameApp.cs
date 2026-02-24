@@ -96,6 +96,7 @@ public class iGameApp
 		{
 		case kGameSceneEnum.Game:
 		{
+			CUISound.GetInstance().Stop("BGM_theme");
 			GameLevelInfo gameLevelInfo = m_GameData.GetGameLevelInfo(m_GameState.GameLevel);
 			if (gameLevelInfo != null)
 			{
@@ -106,6 +107,7 @@ public class iGameApp
 			break;
 		}
 		case kGameSceneEnum.Map:
+			CUISound.GetInstance().Play("BGM_theme");
 			m_GameState.CurScene = kGameSceneEnum.Map;
 			m_GameState.m_sLoadScene = "Scene_Map";
 			Application.LoadLevel("SceneLoad");
@@ -115,6 +117,7 @@ public class iGameApp
 			Application.LoadLevelAsync("SceneRoom");
 			break;
 		case kGameSceneEnum.Home:
+			CUISound.GetInstance().Play("BGM_theme");
 			m_GameState.CurScene = kGameSceneEnum.Home;
 			m_GameState.m_sLoadScene = "Scene_MainMenu";
 			Application.LoadLevel("SceneLoad");

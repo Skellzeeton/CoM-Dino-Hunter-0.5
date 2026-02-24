@@ -15,17 +15,13 @@ public class gyUIPanelMissionSuccessLevelUp : MonoBehaviour
 	public UILabel mLabel1_1;
 
 	public UILabel mLabel1_2;
-
-	public UISprite mLabel1_3;
-
+	
 	public UILabel mLabel1_4;
 
 	public UILabel mLabel2_1;
 
 	public UILabel mLabel2_2;
-
-	public UISprite mLabel2_3;
-
+	
 	public UILabel mLabel2_4;
 
 	protected bool m_bShow;
@@ -39,10 +35,8 @@ public class gyUIPanelMissionSuccessLevelUp : MonoBehaviour
 		m_bShow = false;
         gameObject.SetActive(false);
 		mLabel1_2.gameObject.SetActive(false);
-		mLabel1_3.gameObject.SetActive(false);
 		mLabel1_4.gameObject.SetActive(false);
 		mLabel2_2.gameObject.SetActive(false);
-		mLabel2_3.gameObject.SetActive(false);
 		mLabel2_4.gameObject.SetActive(false);
     }
 
@@ -72,7 +66,7 @@ public class gyUIPanelMissionSuccessLevelUp : MonoBehaviour
 			m_fStepCount -= deltaTime;
 			if (m_fStepCount <= 0f)
 			{
-				mLabel1_3.gameObject.SetActiveRecursively(true);
+				mLabel1_4.gameObject.SetActiveRecursively(true);
 				m_nStep = 2;
 				m_fStepCount = 0.2f;
 			}
@@ -81,7 +75,7 @@ public class gyUIPanelMissionSuccessLevelUp : MonoBehaviour
 			m_fStepCount -= deltaTime;
 			if (m_fStepCount <= 0f)
 			{
-				mLabel1_4.gameObject.SetActiveRecursively(true);
+				mLabel2_2.gameObject.SetActiveRecursively(true);
 				m_nStep = 3;
 				m_fStepCount = 0.2f;
 			}
@@ -90,26 +84,8 @@ public class gyUIPanelMissionSuccessLevelUp : MonoBehaviour
 			m_fStepCount -= deltaTime;
 			if (m_fStepCount <= 0f)
 			{
-				mLabel2_2.gameObject.SetActiveRecursively(true);
-				m_nStep = 4;
-				m_fStepCount = 0.2f;
-			}
-			break;
-		case 4:
-			m_fStepCount -= deltaTime;
-			if (m_fStepCount <= 0f)
-			{
-				mLabel2_3.gameObject.SetActiveRecursively(true);
-				m_nStep = 5;
-				m_fStepCount = 0.2f;
-			}
-			break;
-		case 5:
-			m_fStepCount -= deltaTime;
-			if (m_fStepCount <= 0f)
-			{
 				mLabel2_4.gameObject.SetActiveRecursively(true);
-				m_nStep = 6;
+				m_nStep = 4;
 				m_fStepCount = 0.2f;
 			}
 			break;

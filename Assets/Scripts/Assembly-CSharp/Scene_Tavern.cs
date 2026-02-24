@@ -131,6 +131,7 @@ public class Scene_Tavern : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			switch (popup_role.GetRoleBuyState())
 			{
 			case PopupRoleBuy.PopupRoleBuyState.State_Unlock:
@@ -162,6 +163,7 @@ public class Scene_Tavern : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneTavern("TUIEvent_Back"));
 		}
 	}

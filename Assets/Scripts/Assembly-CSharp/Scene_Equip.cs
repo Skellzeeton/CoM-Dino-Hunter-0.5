@@ -300,6 +300,7 @@ public class Scene_Equip : MonoBehaviour
 		if (event_type == 3)
 		{
 			Debug.Log("you click role");
+			CUISound.GetInstance().Play("UI_Button");
 			popup_role.Show();
 			popup_role.SetItemNowInfo(control.GetComponent<BtnItem_Item>());
 			popup_role.BeforeItemSelect(control.GetComponent<BtnItem_Item>().GetInfo());
@@ -310,6 +311,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			popup_prop.Show();
 			popup_prop.SetSimpleInfo(control.GetComponent<BtnItem_Item>().GetInfo());
 		}
@@ -319,6 +321,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			popup_skill01.Show();
 			popup_skill01.SetSimpleInfo(control.GetComponent<BtnItem_Item>().GetInfo(), Popup_Show.PopupType.Skills01);
 		}
@@ -328,6 +331,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			Debug.Log("You click skill");
 			popup_skill.Show();
 			popup_skill.SetItemNowInfo(control.GetComponent<BtnItem_Item>());
@@ -339,6 +343,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			Debug.Log("You click weapon");
 			BtnItem_Item component = control.GetComponent<BtnItem_Item>();
 			switch (component.GetIndex())
@@ -460,6 +465,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_role.Hide();
 			popup_role.SetItemSelectInfo(null);
 			popup_role.SetItemNowInfo(null);
@@ -470,6 +476,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_prop.Hide();
 		}
 	}
@@ -478,6 +485,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_skill01.Hide();
 		}
 	}
@@ -486,6 +494,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_skill.Hide();
 			popup_skill.SetItemSelectInfo(null);
 			popup_skill.SetItemNowInfo(null);
@@ -496,6 +505,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_weapon_now.Hide();
 			popup_weapon_now.SetItemSelectInfo(null);
 			popup_weapon_now.SetItemNowInfo(null);
@@ -515,6 +525,7 @@ public class Scene_Equip : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneEquip("TUIEvent_Back"));
 		}
 	}

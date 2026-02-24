@@ -43,8 +43,8 @@ public class iCameraTrail : iCamera
 
     protected float m_fRatePitch;
 
-    protected float yawSmoothTime = 0.022f;
-    protected float pitchSmoothTime = 0.022f;
+    protected float yawSmoothTime = 0.0333f;
+    protected float pitchSmoothTime = 0.0333f;
     private float yawSmoothVelocity = 0f;
     private float pitchSmoothVelocity = 0f;
 

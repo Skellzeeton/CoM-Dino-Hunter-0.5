@@ -525,6 +525,7 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/GoodsQualityType.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iUIAchievementStar.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/Scene_Stash.cs" />
+    <Compile Include="Assets/Scripts/Assembly-CSharp/CUISound.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/UIScrollBar.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iSceneDamage.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iMobCenter.cs" />

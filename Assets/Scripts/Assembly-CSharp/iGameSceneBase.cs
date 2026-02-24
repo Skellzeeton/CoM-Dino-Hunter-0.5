@@ -2226,11 +2226,12 @@ public class iGameSceneBase
 		GameObject gameObject = new GameObject("tempsound");
 		if (!(gameObject == null))
 		{
+			gameObject.transform.position = v3Pos;
 			TAudioController tAudioController = gameObject.AddComponent<TAudioController>();
 			if (!(tAudioController == null))
 			{
 				tAudioController.PlayAudio(sAuido);
-				Object.Destroy(gameObject, 2f);
+				Object.Destroy(gameObject, 15f);
 			}
 		}
 	}
