@@ -38,6 +38,8 @@ public class iSpawnBullet : MonoBehaviour
 	protected ParticleSystem[] m_arrParicleSystem;
 
 	protected bool m_bEmission;
+	
+	protected HashSet<int> m_hitUIDs;
 
 	public int Owner
 	{
@@ -66,6 +68,7 @@ public class iSpawnBullet : MonoBehaviour
 			}
 		}
 		m_bEmission = false;
+		m_hitUIDs = new HashSet<int>();
 	}
 
 	private void Start()
@@ -102,203 +105,231 @@ public class iSpawnBullet : MonoBehaviour
 		}
 	}
 
-	private void OnTriggerEnter(Collider collider)
-	{
-		CCharBase cCharBase = m_GameScene.GetPlayer(m_nOwnerUID);
-		if (cCharBase == null)
-		{
-			cCharBase = m_GameScene.GetMob(m_nOwnerUID);
-			if (cCharBase == null)
-			{
-				return;
-			}
-		}
-		iSpawnBullet component = collider.transform.root.GetComponent<iSpawnBullet>();
-		if (component != null && component.Owner == m_nOwnerUID)
-		{
-			return;
-		}
-		if (fAtkRange <= 0f)
-		{
-			CCharBase component2 = collider.transform.root.GetComponent<CCharBase>();
-			if (component2 != null && !component2.isDead && cCharBase != component2 && !cCharBase.IsAlly(component2))
-			{
-				Vector3 v3HitDir = collider.transform.position - m_Transform.position;
-				Vector3 position = m_Transform.position;
-				if (m_GameScene.IsMyself(cCharBase) || (cCharBase.IsMonster() && m_GameScene.IsRoomMaster()))
-				{
-					if (component2.IsMob() || component2.IsBoss())
-					{
-						((CCharMob)component2).SetLifeBarParam(1f);
-					}
-					if (m_pWeaponLvlInfo != null)
-					{
-						CCharPlayer cCharPlayer = cCharBase as CCharPlayer;
-						if (cCharPlayer != null)
-						{
-							float num = cCharPlayer.CalcWeaponDamage(m_pWeaponLvlInfo);
-							float num2 = cCharPlayer.CalcCritical(m_pWeaponLvlInfo);
-							float num3 = cCharPlayer.CalcCriticalDmg(m_pWeaponLvlInfo);
-							bool bCritical = false;
-							if (num2 > Random.Range(1f, 100f))
-							{
-								num *= 1f + num3 / 100f;
-								bCritical = true;
-							}
-							float elementValue = m_pWeaponLvlInfo.GetElementValue(component2.ID);
-							if (elementValue != 0f)
-							{
-								num *= 1f + elementValue / 100f;
-							}
-							float num4 = component2.CalcProtect();
-							num *= 1f - num4 / 100f;
-							component2.OnHit(0f - num, m_pWeaponLvlInfo, string.Empty);
-							m_GameScene.AddDamageText(num, component2.GetBone(1).position, bCritical);
-						}
-					}
-					iGameLogic.HitInfo hitinfo = new iGameLogic.HitInfo();
-					hitinfo.v3HitDir = v3HitDir;
-					hitinfo.v3HitPos = position;
-					m_GameLogic.CaculateFunc(cCharBase, component2, m_arrFunc, m_arrValueX, m_arrValueY, ref hitinfo);
-					if (component2.isDead)
-					{
-						CCharMob cCharMob = component2 as CCharMob;
-						CCharUser cCharUser = cCharBase as CCharUser;
-						if (cCharUser != null && cCharMob != null)
-						{
-							CMobInfoLevel mobInfo = cCharMob.GetMobInfo();
-							if (mobInfo != null)
-							{
-								cCharUser.AddExp(mobInfo.nExp);
-								m_GameScene.AddExpText(mobInfo.nExp, hitinfo.v3HitPos);
-							}
-						}
-					}
-				}
-				component2.PlayAudio(kAudioEnum.HitBody);
-				m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
-				m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHit);
-				Object.Destroy(base.gameObject);
-			}
-			else if (collider.gameObject.layer == 29 && IsCanHitFloor())
-			{
-				Vector3 position2 = m_Transform.position;
-				position2.y += 100f;
-				RaycastHit hitInfo;
-				if (Physics.Raycast(new Ray(position2, Vector3.down), out hitInfo, 1000f, 536870912))
-				{
-					if (nHitMask != -1)
-					{
-						m_GameScene.AddEffect(hitInfo.point + new Vector3(0f, 0.01f, 0f), Vector3.forward, 2f, nHitMask);
-					}
-					OnHitGround(hitInfo.point);
-				}
-				m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
-				m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHitGround);
-				Object.Destroy(base.gameObject);
-			}
-			else if (collider.gameObject.layer == 31)
-			{
-				m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
-				m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHit);
-				Object.Destroy(base.gameObject);
-			}
-			return;
-		}
-		if (cCharBase.IsMonster())
-		{
-			if ((collider.gameObject.layer != 31 && collider.gameObject.layer != 29) || (collider.gameObject.layer == 29 && !IsCanHitFloor()))
-			{
-				return;
-			}
-		}
-		else if (collider.gameObject.layer != 31 && collider.gameObject.layer != 29 && collider.gameObject.layer != 26)
-		{
-			return;
-		}
-		if (m_GameScene.IsMyself(cCharBase) || (cCharBase.IsMonster() && m_GameScene.IsRoomMaster()))
-		{
-			List<CCharBase> unitList = m_GameScene.GetUnitList();
-			foreach (CCharBase item in unitList)
-			{
-				if (cCharBase.IsAlly(item) || Vector3.Distance(m_Transform.position, item.Pos) > fAtkRange)
-				{
-					continue;
-				}
-				if (item.IsMob() || item.IsBoss())
-				{
-					((CCharMob)item).SetLifeBarParam(1f);
-				}
-				if (m_pWeaponLvlInfo != null)
-				{
-					CCharPlayer cCharPlayer2 = cCharBase as CCharPlayer;
-					if (cCharPlayer2 != null)
-					{
-						float num5 = cCharPlayer2.CalcWeaponDamage(m_pWeaponLvlInfo);
-						float num6 = cCharPlayer2.CalcCritical(m_pWeaponLvlInfo);
-						float num7 = cCharPlayer2.CalcCriticalDmg(m_pWeaponLvlInfo);
-						bool bCritical2 = false;
-						if (num6 > Random.Range(1f, 100f))
-						{
-							num5 *= 1f + num7 / 100f;
-							bCritical2 = true;
-						}
-						float elementValue2 = m_pWeaponLvlInfo.GetElementValue(item.ID);
-						if (elementValue2 != 0f)
-						{
-							num5 *= 1f + elementValue2 / 100f;
-						}
-						float num8 = item.CalcProtect();
-						num5 *= 1f - num8 / 100f;
-						item.OnHit(0f - num5, m_pWeaponLvlInfo, string.Empty);
-						m_GameScene.AddDamageText(num5, item.GetBone(1).position, bCritical2);
-					}
-				}
-				iGameLogic.HitInfo hitinfo2 = new iGameLogic.HitInfo();
-				hitinfo2.v3HitDir = collider.transform.position - item.Pos;
-				hitinfo2.v3HitPos = item.GetBone(1).position;
-				m_GameLogic.CaculateFunc(cCharBase, item, m_arrFunc, m_arrValueX, m_arrValueY, ref hitinfo2);
-				if (item.isDead)
-				{
-					CCharMob cCharMob2 = item as CCharMob;
-					CCharUser cCharUser2 = cCharBase as CCharUser;
-					if (cCharUser2 != null && cCharMob2 != null)
-					{
-						CMobInfoLevel mobInfo2 = cCharMob2.GetMobInfo();
-						if (mobInfo2 != null)
-						{
-							cCharUser2.AddExp(mobInfo2.nExp);
-							m_GameScene.AddExpText(mobInfo2.nExp, hitinfo2.v3HitPos);
-						}
-					}
-				}
-				item.PlayAudio(kAudioEnum.HitBody);
-			}
-		}
-		if (collider.gameObject.layer == 29 && IsCanHitFloor())
-		{
-			Vector3 position3 = m_Transform.position;
-			position3.y += 100f;
-			RaycastHit hitInfo2;
-			if (Physics.Raycast(new Ray(position3, Vector3.down), out hitInfo2, 1000f, 536870912))
-			{
-				if (nHitMask != -1)
-				{
-					m_GameScene.AddEffect(hitInfo2.point + new Vector3(0f, 0.01f, 0f), Vector3.forward, 2f, nHitMask);
-				}
-				OnHitGround(hitInfo2.point);
-			}
-			m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
-			m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHitGround);
-			Object.Destroy(base.gameObject);
-		}
-		else
-		{
-			m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
-			m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHit);
-			Object.Destroy(base.gameObject);
-		}
-	}
+private void OnTriggerEnter(Collider collider)
+{
+    CCharBase cCharBase = m_GameScene.GetPlayer(m_nOwnerUID);
+    if (cCharBase == null)
+    {
+        cCharBase = m_GameScene.GetMob(m_nOwnerUID);
+        if (cCharBase == null)
+        {
+            return;
+        }
+    }
+    iSpawnBullet component = collider.transform.root.GetComponent<iSpawnBullet>();
+    if (component != null && component.Owner == m_nOwnerUID)
+    {
+        return;
+    }
+    if (fAtkRange <= 0f)
+    {
+        CCharBase component2 = collider.transform.root.GetComponent<CCharBase>();
+        if (component2 != null && !component2.isDead && cCharBase != component2 && !cCharBase.IsAlly(component2))
+        {
+            int uidSingle = component2.UID;
+            if (m_hitUIDs.Contains(uidSingle))
+            {
+                return;
+            }
+            m_hitUIDs.Add(uidSingle);
+
+            Vector3 v3HitDir = collider.transform.position - m_Transform.position;
+            Vector3 position = m_Transform.position;
+
+            if (m_GameScene.IsMyself(cCharBase) || (cCharBase.IsMonster() && m_GameScene.IsRoomMaster()))
+            {
+                if (component2.IsMob() || component2.IsBoss())
+                {
+                    ((CCharMob)component2).SetLifeBarParam(1f);
+                }
+
+                if (m_pWeaponLvlInfo != null)
+                {
+                    CCharPlayer cCharPlayer = cCharBase as CCharPlayer;
+                    if (cCharPlayer != null)
+                    {
+                        float num = cCharPlayer.CalcWeaponDamage(m_pWeaponLvlInfo);
+                        float num2 = cCharPlayer.CalcCritical(m_pWeaponLvlInfo);
+                        float num3 = cCharPlayer.CalcCriticalDmg(m_pWeaponLvlInfo);
+                        bool bCritical = false;
+                        if (num2 > Random.Range(1f, 100f))
+                        {
+                            num *= 1f + num3 / 100f;
+                            bCritical = true;
+                        }
+                        float elementValue = m_pWeaponLvlInfo.GetElementValue(component2.ID);
+                        if (elementValue != 0f)
+                        {
+                            num *= 1f + elementValue / 100f;
+                        }
+                        float num4 = component2.CalcProtect();
+                        num *= 1f - num4 / 100f;
+                        bool wasAliveBefore = !component2.isDead;
+                        component2.OnHit(0f - num, m_pWeaponLvlInfo, string.Empty);
+                        m_GameScene.AddDamageText(num, component2.GetBone(1).position, bCritical);
+                        if (component2.isDead && wasAliveBefore)
+                        {
+                            CCharMob cCharMob = component2 as CCharMob;
+                            CCharUser cCharUser = cCharBase as CCharUser;
+                            if (cCharUser != null && cCharMob != null)
+                            {
+                                CMobInfoLevel mobInfo = cCharMob.GetMobInfo();
+                                if (mobInfo != null)
+                                {
+                                    cCharUser.AddExp(mobInfo.nExp);
+                                    m_GameScene.AddExpText(mobInfo.nExp, position);
+                                }
+                            }
+                        }
+                    }
+                }
+                iGameLogic.HitInfo hitinfo = new iGameLogic.HitInfo();
+                hitinfo.v3HitDir = v3HitDir;
+                hitinfo.v3HitPos = position;
+                m_GameLogic.CaculateFunc(cCharBase, component2, m_arrFunc, m_arrValueX, m_arrValueY, ref hitinfo);
+            }
+            component2.PlayAudio(kAudioEnum.HitBody);
+            m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
+            m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHit);
+            Object.Destroy(base.gameObject);
+        }
+        else if (collider.gameObject.layer == 29 && IsCanHitFloor())
+        {
+            Vector3 position2 = m_Transform.position;
+            position2.y += 100f;
+            RaycastHit hitInfo;
+            if (Physics.Raycast(new Ray(position2, Vector3.down), out hitInfo, 1000f, 536870912))
+            {
+                if (nHitMask != -1)
+                {
+                    m_GameScene.AddEffect(hitInfo.point + new Vector3(0f, 0.01f, 0f), Vector3.forward, 2f, nHitMask);
+                }
+                OnHitGround(hitInfo.point);
+            }
+            m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
+            m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHitGround);
+            Object.Destroy(base.gameObject);
+        }
+        else if (collider.gameObject.layer == 31)
+        {
+            m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
+            m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHit);
+            Object.Destroy(base.gameObject);
+        }
+        return;
+    }
+    if (cCharBase.IsMonster())
+    {
+        if ((collider.gameObject.layer != 31 && collider.gameObject.layer != 29) || (collider.gameObject.layer == 29 && !IsCanHitFloor()))
+        {
+            return;
+        }
+    }
+    else if (collider.gameObject.layer != 31 && collider.gameObject.layer != 29 && collider.gameObject.layer != 26)
+    {
+        return;
+    }
+
+    if (m_GameScene.IsMyself(cCharBase) || (cCharBase.IsMonster() && m_GameScene.IsRoomMaster()))
+    {
+        List<CCharBase> unitList = m_GameScene.GetUnitList();
+        foreach (CCharBase item in unitList)
+        {
+            if (item == null)
+                continue;
+            if (cCharBase.IsAlly(item) || Vector3.Distance(m_Transform.position, item.Pos) > fAtkRange)
+            {
+                continue;
+            }
+            if (item.isDead)
+            {
+                continue;
+            }
+            int uid = item.UID;
+            if (m_hitUIDs.Contains(uid))
+            {
+                continue;
+            }
+            m_hitUIDs.Add(uid);
+
+            if (item.IsMob() || item.IsBoss())
+            {
+                ((CCharMob)item).SetLifeBarParam(1f);
+            }
+
+            if (m_pWeaponLvlInfo != null)
+            {
+                CCharPlayer cCharPlayer2 = cCharBase as CCharPlayer;
+                if (cCharPlayer2 != null)
+                {
+                    float num5 = cCharPlayer2.CalcWeaponDamage(m_pWeaponLvlInfo);
+                    float num6 = cCharPlayer2.CalcCritical(m_pWeaponLvlInfo);
+                    float num7 = cCharPlayer2.CalcCriticalDmg(m_pWeaponLvlInfo);
+                    bool bCritical2 = false;
+                    if (num6 > Random.Range(1f, 100f))
+                    {
+                        num5 *= 1f + num7 / 100f;
+                        bCritical2 = true;
+                    }
+                    float elementValue2 = m_pWeaponLvlInfo.GetElementValue(item.ID);
+                    if (elementValue2 != 0f)
+                    {
+                        num5 *= 1f + elementValue2 / 100f;
+                    }
+                    float num8 = item.CalcProtect();
+                    num5 *= 1f - num8 / 100f;
+                    bool wasAliveBefore = !item.isDead;
+                    item.OnHit(0f - num5, m_pWeaponLvlInfo, string.Empty);
+                    m_GameScene.AddDamageText(num5, item.GetBone(1).position, bCritical2);
+                    if (item.isDead && wasAliveBefore)
+                    {
+                        CCharMob cCharMob2 = item as CCharMob;
+                        CCharUser cCharUser2 = cCharBase as CCharUser;
+                        if (cCharUser2 != null && cCharMob2 != null)
+                        {
+                            CMobInfoLevel mobInfo2 = cCharMob2.GetMobInfo();
+                            if (mobInfo2 != null)
+                            {
+                                cCharUser2.AddExp(mobInfo2.nExp);
+                                m_GameScene.AddExpText(mobInfo2.nExp, item.GetBone(1).position);
+                            }
+                        }
+                    }
+                }
+            }
+
+            iGameLogic.HitInfo hitinfo2 = new iGameLogic.HitInfo();
+            hitinfo2.v3HitDir = collider.transform.position - item.Pos;
+            hitinfo2.v3HitPos = item.GetBone(1).position;
+            m_GameLogic.CaculateFunc(cCharBase, item, m_arrFunc, m_arrValueX, m_arrValueY, ref hitinfo2);
+
+            item.PlayAudio(kAudioEnum.HitBody);
+        }
+    }
+    if (collider.gameObject.layer == 29 && IsCanHitFloor())
+    {
+        Vector3 position3 = m_Transform.position;
+        position3.y += 100f;
+        RaycastHit hitInfo2;
+        if (Physics.Raycast(new Ray(position3, Vector3.down), out hitInfo2, 1000f, 536870912))
+        {
+            if (nHitMask != -1)
+            {
+                m_GameScene.AddEffect(hitInfo2.point + new Vector3(0f, 0.01f, 0f), Vector3.forward, 2f, nHitMask);
+            }
+            OnHitGround(hitInfo2.point);
+        }
+        m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
+        m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHitGround);
+        Object.Destroy(base.gameObject);
+    }
+    else
+    {
+        m_GameScene.PlayAudio(m_Transform.position, sAudioHit);
+        m_GameScene.AddEffect(m_Transform.position, Vector3.forward, 2f, nEffHit);
+        Object.Destroy(base.gameObject);
+    }
+}
 
 	public virtual void Initialize(int nUID, int nID, Vector3 v3Pos, Vector3 v3Force, int[] arrFunc, int[] arrValueX, int[] arrValueY)
 	{
