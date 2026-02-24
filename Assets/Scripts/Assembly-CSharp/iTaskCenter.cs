@@ -180,7 +180,7 @@ public class iTaskCenter
 		}
 		if (MyUtils.GetAttribute(node, "ZhaLanLife", ref value))
 		{
-			cTaskInfoDefence.fLife = float.Parse(value);
+			cTaskInfoDefence.fLife = MyUtils.ParseFloat(value);
 		}
 		return cTaskInfoDefence;
 	}

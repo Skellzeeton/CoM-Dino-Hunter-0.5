@@ -5,11 +5,9 @@ using UnityEngine;
 public class UISprite : UIWidget
 {
 	[SerializeField]
-	[HideInInspector]
 	private UIAtlas mAtlas;
 
 	[SerializeField]
-	[HideInInspector]
 	private string mSpriteName;
 
 	protected UIAtlas.Sprite mSprite;

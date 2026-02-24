@@ -214,7 +214,7 @@ public class iMSModelShow : MonoBehaviour
 					string[] array = value.Split(',');
 					if (array.Length > 2)
 					{
-						cMSDataTele.m_v3Dst = new Vector3(float.Parse(array[0]), float.Parse(array[1]), float.Parse(array[2]));
+						cMSDataTele.m_v3Dst = new Vector3(MyUtils.ParseFloat(array[0]), MyUtils.ParseFloat(array[1]), MyUtils.ParseFloat(array[2]));
 					}
 				}
 				break;
@@ -228,7 +228,7 @@ public class iMSModelShow : MonoBehaviour
 					string[] array = value.Split(',');
 					if (array.Length > 2)
 					{
-						cMSDataMove.m_v3Dst = new Vector3(float.Parse(array[0]), float.Parse(array[1]), float.Parse(array[2]));
+						cMSDataMove.m_v3Dst = new Vector3(MyUtils.ParseFloat(array[0]), MyUtils.ParseFloat(array[1]), MyUtils.ParseFloat(array[2]));
 					}
 				}
 				if (MyUtils.GetAttribute(childNode, "moveanim", ref value))
@@ -237,7 +237,7 @@ public class iMSModelShow : MonoBehaviour
 				}
 				if (MyUtils.GetAttribute(childNode, "moveanimrate", ref value))
 				{
-					cMSDataMove.m_fAnimRate = float.Parse(value);
+					cMSDataMove.m_fAnimRate = MyUtils.ParseFloat(value);
 				}
 				break;
 			}
@@ -255,11 +255,11 @@ public class iMSModelShow : MonoBehaviour
 				}
 				if (MyUtils.GetAttribute(childNode, "animspeed", ref value))
 				{
-					cMSDataAnim.m_fAnimSpeed = float.Parse(value);
+					cMSDataAnim.m_fAnimSpeed = MyUtils.ParseFloat(value);
 				}
 				if (MyUtils.GetAttribute(childNode, "animtime", ref value))
 				{
-					cMSDataAnim.m_fAnimTime = float.Parse(value);
+					cMSDataAnim.m_fAnimTime = MyUtils.ParseFloat(value);
 				}
 				break;
 			}
@@ -268,11 +268,11 @@ public class iMSModelShow : MonoBehaviour
 			{
 				if (MyUtils.GetAttribute(childNode, "Begin", ref value))
 				{
-					cMSDataBase.m_fTimeBegin = float.Parse(value);
+					cMSDataBase.m_fTimeBegin = MyUtils.ParseFloat(value);
 				}
 				if (MyUtils.GetAttribute(childNode, "End", ref value))
 				{
-					cMSDataBase.m_fTimeEnd = float.Parse(value);
+					cMSDataBase.m_fTimeEnd = MyUtils.ParseFloat(value);
 				}
 				Add(cMSDataBase);
 			}

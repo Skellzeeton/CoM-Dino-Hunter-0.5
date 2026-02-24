@@ -169,10 +169,10 @@ public class CStartPointManager
 		{
 			return;
 		}
-		m_Color.r = float.Parse(array[0]);
-		m_Color.g = float.Parse(array[1]);
-		m_Color.b = float.Parse(array[2]);
-		m_Color.a = float.Parse(array[3]);
+		m_Color.r = MyUtils.ParseFloat(array[0]);
+		m_Color.g = MyUtils.ParseFloat(array[1]);
+		m_Color.b = MyUtils.ParseFloat(array[2]);
+		m_Color.a = MyUtils.ParseFloat(array[3]);
 		foreach (XmlNode childNode in documentElement.ChildNodes)
 		{
 			if (childNode.Name != "Point")
@@ -192,7 +192,7 @@ public class CStartPointManager
 				array = empty.Split(',');
 				if (array.Length >= 2)
 				{
-					cStartPoint.v3Pos = new Vector3(float.Parse(array[0]), float.Parse(array[1]), float.Parse(array[2]));
+					cStartPoint.v3Pos = new Vector3(MyUtils.ParseFloat(array[0]), MyUtils.ParseFloat(array[1]), MyUtils.ParseFloat(array[2]));
 				}
 			}
 			empty = childNode.Attributes["size"].Value;
@@ -201,7 +201,7 @@ public class CStartPointManager
 				array = empty.Split(',');
 				if (array.Length >= 2)
 				{
-					cStartPoint.v3Size = new Vector3(float.Parse(array[0]), float.Parse(array[1]), float.Parse(array[2]));
+					cStartPoint.v3Size = new Vector3(MyUtils.ParseFloat(array[0]), MyUtils.ParseFloat(array[1]), MyUtils.ParseFloat(array[2]));
 				}
 			}
 			Set(nID, cStartPoint);

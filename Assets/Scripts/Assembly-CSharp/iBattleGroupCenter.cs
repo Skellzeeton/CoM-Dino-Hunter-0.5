@@ -52,11 +52,11 @@ public class iBattleGroupCenter
 				}
 				if (MyUtils.GetAttribute(childNode, "min", ref value))
 				{
-					fMin = float.Parse(value);
+					fMin = MyUtils.ParseFloat(value);
 				}
 				if (MyUtils.GetAttribute(childNode, "max", ref value))
 				{
-					fMax = float.Parse(value);
+					fMax = MyUtils.ParseFloat(value);
 				}
 				m_ltBattleRegion.Add(new CBattleRegion(nGroupID, fMin, fMax));
 			}

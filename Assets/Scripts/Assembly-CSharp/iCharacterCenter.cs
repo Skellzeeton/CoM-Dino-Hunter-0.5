@@ -142,7 +142,7 @@ public class iCharacterCenter
 			}
 			if (MyUtils.GetAttribute(childNode, "life", ref value))
 			{
-				cCharacterInfoLevel.fLifeBase = float.Parse(value);
+				cCharacterInfoLevel.fLifeBase = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "skill", ref value))
 			{
@@ -150,7 +150,7 @@ public class iCharacterCenter
 			}
 			if (MyUtils.GetAttribute(childNode, "skillcd", ref value))
 			{
-				cCharacterInfoLevel.fSkillCD = float.Parse(value);
+				cCharacterInfoLevel.fSkillCD = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "skillpassive", ref value))
 			{

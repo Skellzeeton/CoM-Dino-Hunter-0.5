@@ -92,7 +92,7 @@ public class iAICenter
 				string[] array = value.Split(',');
 				for (int j = 0; j < array.Length && j < cAIInfo.ltSkill.Count; j++)
 				{
-					cAIInfo.ltSkill[j].m_fRate = float.Parse(array[j]);
+					cAIInfo.ltSkill[j].m_fRate = MyUtils.ParseFloat(array[j]);
 				}
 			}
 			if (MyUtils.GetAttribute(childNode, "skillpassive", ref value))

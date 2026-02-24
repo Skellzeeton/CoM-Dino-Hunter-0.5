@@ -97,7 +97,7 @@ public class FileControl
 	public static Color StringToColor(string str)
 	{
 		string[] array = str.Split(':');
-		return new Color(float.Parse(array[0]), float.Parse(array[1]), float.Parse(array[2]), float.Parse(array[3]));
+		return new Color(MyUtils.ParseFloat(array[0]), MyUtils.ParseFloat(array[1]), MyUtils.ParseFloat(array[2]), MyUtils.ParseFloat(array[3]));
 	}
 
 	public static string Vector3ToString(Vector3 vec)
@@ -108,6 +108,6 @@ public class FileControl
 	public static Vector3 StringToVector3(string str)
 	{
 		string[] array = str.Split(':');
-		return new Vector3(float.Parse(array[0]), float.Parse(array[1]), float.Parse(array[2]));
+		return new Vector3(MyUtils.ParseFloat(array[0]), MyUtils.ParseFloat(array[1]), MyUtils.ParseFloat(array[2]));
 	}
 }

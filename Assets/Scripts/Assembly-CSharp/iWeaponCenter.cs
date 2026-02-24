@@ -112,7 +112,7 @@ public class iWeaponCenter
 				string[] array = value.Split(',');
 				for (int i = 0; i < array.Length; i++)
 				{
-					cWeaponInfoLevel.ltAttackModeValue.Add(float.Parse(array[i]));
+					cWeaponInfoLevel.ltAttackModeValue.Add(MyUtils.ParseFloat(array[i]));
 				}
 			}
 			if (MyUtils.GetAttribute(childNode, "actiontype", ref value))
@@ -166,31 +166,31 @@ public class iWeaponCenter
 			}
 			if (MyUtils.GetAttribute(childNode, "damage", ref value))
 			{
-				cWeaponInfoLevel.fDamage = float.Parse(value);
+				cWeaponInfoLevel.fDamage = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "critical", ref value))
 			{
-				cWeaponInfoLevel.fCritical = float.Parse(value);
+				cWeaponInfoLevel.fCritical = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "criticaldmg", ref value))
 			{
-				cWeaponInfoLevel.fCriticalDmg = float.Parse(value);
+				cWeaponInfoLevel.fCriticalDmg = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "shootspeed", ref value))
 			{
-				cWeaponInfoLevel.fShootSpeed = float.Parse(value);
+				cWeaponInfoLevel.fShootSpeed = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "msdownshoot", ref value))
 			{
-				cWeaponInfoLevel.fMSDownRateShoot = float.Parse(value);
+				cWeaponInfoLevel.fMSDownRateShoot = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "msdownequip", ref value))
 			{
-				cWeaponInfoLevel.fMSDownRateEquip = float.Parse(value);
+				cWeaponInfoLevel.fMSDownRateEquip = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "precise", ref value))
 			{
-				cWeaponInfoLevel.fPrecise = float.Parse(value);
+				cWeaponInfoLevel.fPrecise = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "capacity", ref value))
 			{
@@ -222,7 +222,7 @@ public class iWeaponCenter
 			}
 			if (MyUtils.GetAttribute(childNode, "elementup", ref value))
 			{
-				cWeaponInfoLevel.fElementUp = float.Parse(value);
+				cWeaponInfoLevel.fElementUp = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "elementupmonster", ref value))
 			{
@@ -235,7 +235,7 @@ public class iWeaponCenter
 			}
 			if (MyUtils.GetAttribute(childNode, "elementdown", ref value))
 			{
-				cWeaponInfoLevel.fElementDown = float.Parse(value);
+				cWeaponInfoLevel.fElementDown = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "elementdownmonster", ref value))
 			{

@@ -54,7 +54,7 @@ namespace gyDataCenter
 					}
 					break;
 				case kDataType.FLOAT:
-					cData.SetData(item.Key, new CDataBaseFloat(float.Parse(text)));
+					cData.SetData(item.Key, new CDataBaseFloat(MyUtils.ParseFloat(text)));
 					break;
 				case kDataType.BOOL:
 					cData.SetData(item.Key, new CDataBaseBool(bool.Parse(text)));
@@ -84,7 +84,7 @@ namespace gyDataCenter
 						CDataBaseArrFloat cDataBaseArrFloat = new CDataBaseArrFloat(array.Length);
 						for (int j = 0; j < array.Length; j++)
 						{
-							cDataBaseArrFloat.SetValue(j, float.Parse(array[j]));
+							cDataBaseArrFloat.SetValue(j, MyUtils.ParseFloat(array[j]));
 						}
 						cData.SetData(item.Key, cDataBaseArrFloat);
 					}

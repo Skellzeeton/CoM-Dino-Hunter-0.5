@@ -68,7 +68,7 @@ public class iGameLevelCenter
 			}
 			if (MyUtils.GetAttribute(childNode, "nav_plane", ref value))
 			{
-				gameLevelInfo.fNavPlane = float.Parse(value);
+				gameLevelInfo.fNavPlane = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "bp_cfg", ref value))
 			{

@@ -61,11 +61,11 @@ public class iMGCenter
 			}
 			if (MyUtils.GetAttribute(childNode, "delay", ref value))
 			{
-				waveInfo.m_fDelayTime = float.Parse(value);
+				waveInfo.m_fDelayTime = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "interval", ref value))
 			{
-				waveInfo.m_fInterval = float.Parse(value);
+				waveInfo.m_fInterval = MyUtils.ParseFloat(value);
 			}
 			if (MyUtils.GetAttribute(childNode, "number", ref value))
 			{
