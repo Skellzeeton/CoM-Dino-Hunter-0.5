@@ -853,9 +853,7 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/lgHasNoTargetNode.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/ActiveAnimation.cs" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_200101.txt" />
-    <None Include="Assets/Shader/COL_DO_2S_AB_0.shader" />
     <None Include="Assets/Shader/COL_AB_Shadow.shader" />
-    <None Include="Assets/Shader/COL_LM_DO_0.shader" />
     <None Include="Assets/Shader/COL_VL_AB.shader" />
     <None Include="Assets/Shader/COL_2S.shader" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_140101.txt" />
@@ -911,7 +909,6 @@
     <None Include="Assets/Resources/_config/_hoverpoint/HoverPoint_1001.txt" />
     <None Include="Assets/TextAsset/Scene_Stash_cfg.txt" />
     <None Include="Assets/Resources/_config/_triggerpoint/TriggerPoint_160301.txt" />
-    <None Include="Assets/Shader/AA_COL_DO_0.shader" />
     <None Include="Assets/Resources/_config/_triggerpoint/TriggerPoint_160401.txt" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_60111.txt" />
     <None Include="Assets/Resources/_config/buff.txt" />

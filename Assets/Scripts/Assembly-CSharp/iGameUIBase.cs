@@ -812,7 +812,7 @@ public class iGameUIBase : MonoBehaviour
 		gyUIEventRegister2 = GetEventRegister(m_UIManager.mSkill.gameObject);
 		gyUIEventRegister2.RegisterOnClick(Event_UseSkill);
 		gyUIEventRegister2 = GetEventRegister(m_UIManager.mScreenTouch);
-		gyUIEventRegister2.RegisterOnDrag(Event_SlipScreen);
+		gyUIEventRegister2.RegisterOnDrag(Event_SlipScreenFast);
 		gyUIEventRegister2.RegisterOnClick(Event_Continue);
 		gyUIEventRegister2 = GetEventRegister(m_UIManager.mWheelMove.gameObject);
 		gyUIEventRegister2.RegisterOnPress(Event_Move);
@@ -820,7 +820,6 @@ public class iGameUIBase : MonoBehaviour
 		gyUIEventRegister2 = GetEventRegister(m_UIManager.mWheelShoot.gameObject);
 		gyUIEventRegister2.RegisterOnPress(Event_Shoot);
 		gyUIEventRegister2.RegisterOnDrag(Event_SlipScreen);
-		gyUIEventRegister2.RegisterOnHold(Event_SlipScreen);
 		gyUIEventRegister2.SetHoldTime(0.1f);
 		if (m_UIManager.mPanelRevive != null)
 		{
@@ -967,6 +966,36 @@ public class iGameUIBase : MonoBehaviour
 			{
 				m_UIManager.mSkill.SetCD(user.CurSkillCD);
 			}
+		}
+	}
+	
+	protected void Event_SlipScreenFast(Vector2 delta)
+	{
+		if (m_GameScene.GameStatus != iGameSceneBase.kGameStatus.Gameing && m_GameScene.GameStatus != iGameSceneBase.kGameStatus.GameOver_ShowTime)
+		{
+			return;
+		}
+		CCharUser user = m_GameScene.GetUser();
+		iCameraTrail iCameraTrail2 = m_GameScene.GetCamera();
+		if (!(delta != Vector2.zero) || !m_SlipAssist.Slip(delta))
+		{
+			return;
+		}
+		if (delta.x != 0f)
+		{
+			iCameraTrail2.Yaw(m_SlipAssist.m_fCurFrameYaw);
+			if (user.IsCanAim())
+			{
+				user.SetYaw(iCameraTrail2.GetYaw());
+			}
+		}
+		if (delta.y != 0f)
+		{
+			iCameraTrail2.Pitch(m_SlipAssist.m_fCurFramePitch);
+		}
+		if (user.IsCanAim() && (delta.x != 0f || delta.y != 0f))
+		{
+			user.LookAt(iCameraTrail2.ScreenPointToRay(m_GameState.ScreenCenter, 0f).GetPoint(1000f));
 		}
 	}
 
