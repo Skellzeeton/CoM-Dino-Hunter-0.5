@@ -930,22 +930,25 @@ public class TUIDataServer
 						CSkillInfoLevel skillInfo5 = gameData5.GetSkillInfo(skillInfo3.nID, nSkillLevel4 + 1);
 						if (skillInfo4 != null && skillInfo5 != null)
 						{
-							if (skillInfo4.isCrystalPurchase)
+							if (skillInfo5.isCrystalPurchase)
 							{
-								if (dataCenter5.Crystal >= skillInfo4.nPurchasePrice)
+								if (dataCenter5.Crystal >= skillInfo5.nPurchasePrice)
 								{
-									dataCenter5.AddCrystal(-skillInfo4.nPurchasePrice);
+									dataCenter5.AddCrystal(-skillInfo5.nPurchasePrice);
 									dataCenter5.SetPassiveSkill(skillInfo3.nID, skillInfo5.nLevel);
 									dataCenter5.Save();
 									success3 = true;
 								}
 							}
-							else if (dataCenter5.Gold >= skillInfo4.nPurchasePrice)
+							else
 							{
-								dataCenter5.AddGold(-skillInfo4.nPurchasePrice);
-								dataCenter5.SetPassiveSkill(skillInfo3.nID, skillInfo5.nLevel);
-								dataCenter5.Save();
-								success3 = true;
+								if (dataCenter5.Gold >= skillInfo5.nPurchasePrice)
+								{
+									dataCenter5.AddGold(-skillInfo5.nPurchasePrice);
+									dataCenter5.SetPassiveSkill(skillInfo3.nID, skillInfo5.nLevel);
+									dataCenter5.Save();
+									success3 = true;
+								}
 							}
 						}
 					}

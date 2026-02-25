@@ -46,6 +46,20 @@ public class Popup_Stash : MonoBehaviour
 	private void Update()
 	{
 	}
+	
+	private void RefreshCapacity()
+	{
+		if (stash_info == null)
+			return;
+
+		int nowCapacity = stash_info.GetNowCapacity();
+		TUIStashUpdateInfo info = stash_info.GetStashLevelInfo();
+		if (info == null)
+			return;
+
+		int maxCapacity = info.max_capacity;
+		label_capacity.Text = nowCapacity + "/" + maxCapacity;
+	}
 
 	public void ShowCapacityAdd()
 	{
@@ -107,6 +121,7 @@ public class Popup_Stash : MonoBehaviour
 			return;
 		}
 		stash_info = m_stash_info;
+		RefreshCapacity();
 		int level = m_stash_info.level;
 		int nowCapacity = m_stash_info.GetNowCapacity();
 		TUIStashUpdateInfo stashLevelInfo = m_stash_info.GetStashLevelInfo();
@@ -310,6 +325,16 @@ public class Popup_Stash : MonoBehaviour
 		else
 		{
 			Debug.Log("error!!!");
+		}
+		if (stash_info != null)
+		{
+			int nowCapacity = stash_info.GetNowCapacity();
+			TUIStashUpdateInfo info = stash_info.GetStashLevelInfo();
+			if (info != null)
+			{
+				int maxCapacity = info.max_capacity;
+				label_capacity.Text = nowCapacity + "/" + maxCapacity;
+			}
 		}
 	}
 
