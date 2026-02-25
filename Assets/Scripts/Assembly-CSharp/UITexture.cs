@@ -49,7 +49,7 @@ public class UITexture : UIWidget
 				}
 				if (mShader == null)
 				{
-					mShader = Shader.Find("Unlit/Texture");
+					mShader = Shader.Find("Triniti/Sprite");
 				}
 			}
 			return mShader;
@@ -95,7 +95,7 @@ public class UITexture : UIWidget
 				{
 					if (mShader == null)
 					{
-						mShader = Shader.Find("Unlit/Texture");
+						mShader = Shader.Find("Triniti/Sprite");
 					}
 					mDynamicMat = new Material(mShader);
 					mDynamicMat.hideFlags = HideFlags.DontSave;

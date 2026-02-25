@@ -34,7 +34,7 @@ trigger 			 0 1wave 2id 3() 4wave 5()
 	</gamewave>
 	
 	
-<gamewave id="1001002" trigger="0" triggervalue="50" delay="6.6" interval="0" number="1" loop="-1" cutscene="forest_boss" cutscene_BGM="BGM_Boss">
+<gamewave id="1001002" trigger="0" triggervalue="50" delay="6.6" interval="0" number="1" loop="-1" cutscene="forest_boss" cutscene_ambience="Amb_Rainforest_Boss_Show" cutscene_BGM="BGM_Boss">
 <mob id="13" level="1" spawnmode="1" startpoint="1" />
 	</gamewave>
 	
