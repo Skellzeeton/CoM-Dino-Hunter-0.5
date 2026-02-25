@@ -308,15 +308,6 @@ public class Scene_MainMenu : MonoBehaviour
 		}
 	}
 
-	public void TUIEvent_IAP(TUIControl control, int event_type, float wparam, float lparam, object data)
-	{
-		if (event_type == 3)
-		{
-			next_scene = "Scene_IAP";
-			SendMessage("TUIEvent_FadeOut");
-		}
-	}
-
 	public void TUIEvent_Map(TUIControl control, int event_type, float wparam, float lparam, object data)
 	{
 		if (event_type == 3 && !is_fade_out)

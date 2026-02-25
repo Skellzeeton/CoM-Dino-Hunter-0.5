@@ -24,7 +24,6 @@ public class TUIDataServer
 		global::EventCenter.EventCenter.Instance.Register<TUIEvent.SendEvent_SceneForge>(TUIEvent_BackInfo_SceneForge);
 		global::EventCenter.EventCenter.Instance.Register<TUIEvent.SendEvent_SceneTavern>(TUIEvent_BackInfo_SceneTavern);
 		global::EventCenter.EventCenter.Instance.Register<TUIEvent.SendEvent_SceneMap>(TUIEvent_BackInfo_SceneMap);
-		global::EventCenter.EventCenter.Instance.Register<TUIEvent.SendEvent_SceneIAP>(TUIEvent_BackInfo_SceneIAP);
 	}
 
 	private void TUIEvent_BackInfo_SceneMainMenu(object sender, TUIEvent.SendEvent_SceneMainMenu m_event)
@@ -1656,53 +1655,6 @@ public class TUIDataServer
 		else if (m_event.GetEventName() == "TUIEvent_Back")
 		{
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.BackEvent_SceneMap(m_event.GetEventName()));
-		}
-	}
-
-	private void TUIEvent_BackInfo_SceneIAP(object sender, TUIEvent.SendEvent_SceneIAP m_event)
-	{
-		if (m_event.GetEventName() == "TUIEvent_TopBar")
-		{
-			iGameData gameData = iGameApp.GetInstance().m_GameData;
-			if (gameData == null)
-			{
-				return;
-			}
-			iDataCenter dataCenter = gameData.GetDataCenter();
-			if (dataCenter == null)
-			{
-				return;
-			}
-			CCharSaveInfo character = dataCenter.GetCharacter(dataCenter.CurCharID);
-			if (character != null)
-			{
-				CCharacterInfoLevel characterInfo = gameData.GetCharacterInfo(character.nID, character.nLevel);
-				if (characterInfo != null)
-				{
-					TUIGameInfo tUIGameInfo = new TUIGameInfo();
-					tUIGameInfo.player_info = new TUIPlayerInfo();
-					tUIGameInfo.player_info.avatar_id = character.nID;
-					tUIGameInfo.player_info.level = character.nLevel;
-					tUIGameInfo.player_info.level_exp = characterInfo.nExp;
-					tUIGameInfo.player_info.exp = character.nExp;
-					tUIGameInfo.player_info.gold = dataCenter.Gold;
-					tUIGameInfo.player_info.crystal = dataCenter.Crystal;
-					global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.BackEvent_SceneIAP(m_event.GetEventName(), tUIGameInfo));
-				}
-			}
-		}
-		else if (m_event.GetEventName() == "TUIEvent_IAPBuy")
-		{
-			int wParam = m_event.GetWParam();
-			if (iGameApp.GetInstance().m_IAPManager != null)
-			{
-				iGameApp.GetInstance().m_IAPManager.Purchase(wParam);
-			}
-			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.BackEvent_SceneIAP(m_event.GetEventName()));
-		}
-		else if (m_event.GetEventName() == "TUIEvent_Back")
-		{
-			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.BackEvent_SceneIAP(m_event.GetEventName()));
 		}
 	}
 }

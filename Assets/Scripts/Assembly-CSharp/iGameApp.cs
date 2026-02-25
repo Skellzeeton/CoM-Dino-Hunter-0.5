@@ -15,9 +15,7 @@ public class iGameApp
 	public iGameData m_GameData;
 
 	public iClearMemory m_ClearMemory;
-
-	public iIAPManager m_IAPManager;
-
+	
 	public static iGameApp GetInstance()
 	{
 		if (m_Instance == null)
@@ -52,13 +50,6 @@ public class iGameApp
 			gameObject.transform.position = Vector3.zero;
 			gameObject.transform.rotation = Quaternion.identity;
 			m_ClearMemory = gameObject.AddComponent<iClearMemory>();
-		}
-		gameObject = new GameObject("_IAPManager");
-		if (gameObject != null)
-		{
-			gameObject.transform.position = Vector3.zero;
-			gameObject.transform.rotation = Quaternion.identity;
-			m_IAPManager = gameObject.AddComponent<iIAPManager>();
 		}
 		PrefabManager.Initialize();
 		m_GameData = new iGameData();

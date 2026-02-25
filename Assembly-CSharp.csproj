@@ -193,7 +193,6 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/GoodsNeedItemImg.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/nmsg_game_playerinfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/EventBringIn.cs" />
-    <Compile Include="Assets/Scripts/Assembly-CSharp/iIAPManager.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/AnimationLayer.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIWeaponInfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIIgnoreTimeScale.cs" />
@@ -249,13 +248,11 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/gyUIAimCross_ShootGun.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iGameTaskUITimeLimit.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/doHitMonsterPlayer.cs" />
-    <Compile Include="Assets/Scripts/Assembly-CSharp/IAPPlugin.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIScaleThumb.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIInputManagerWindows.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/BtnSelect_Item.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/gyUIAnimationBump.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iStepEffectLeft.cs" />
-    <Compile Include="Assets/Scripts/Assembly-CSharp/PopupIAP.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/CMobInfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIWeaponUpdateInfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iUIAchievementTip.cs" />
@@ -573,14 +570,12 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/lgHasShowTimeNode.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iStartPointEditor.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/kGameNetEnum.cs" />
-    <Compile Include="Assets/Scripts/Assembly-CSharp/IAPItem.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/lgCheckHeightTask.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/kCharMoveDir.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iGameTaskUIPlane.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/CSkillComboInfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/UISpriteAnimation.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/Page_Stash.cs" />
-    <Compile Include="Assets/Scripts/Assembly-CSharp/Scene_IAP.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/UIRoot.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/kTaskFail.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/PlatformEnum.cs" />
@@ -630,7 +625,6 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/doDeadUserNode.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/doDeadPlayerTask.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIMaterialInfo.cs" />
-    <Compile Include="Assets/Scripts/Assembly-CSharp/gyIAPSystem/CIAPInfo.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/iAICenter.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/doUseSkillNode.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/gyAchievementSystem/kAchievementType.cs" />
@@ -730,7 +724,6 @@
     <Compile Include="Assets/Scripts/Assembly-CSharp/iCameraController.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/BetterList.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/CUseSkillOnce.cs" />
-    <Compile Include="Assets/Scripts/Assembly-CSharp/gyIAPSystem/CIAPCenter.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/TUIPage.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/CControlIphone.cs" />
     <Compile Include="Assets/Scripts/Assembly-CSharp/CWeaponBase.cs" />
@@ -875,7 +868,6 @@
     <None Include="Assets/Resources/BillingMode.json" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_80111.txt" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_130111.txt" />
-    <None Include="Assets/Resources/_config/iap.txt" />
     <None Include="Assets/TextAsset/Goods_cfg.txt" />
     <None Include="Assets/Shader/ModelEdge.shader" />
     <None Include="Assets/Shader/COL_2S_AB.shader" />
@@ -904,7 +896,6 @@
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_120101.txt" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_200.txt" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_200111.txt" />
-    <None Include="Assets/TextAsset/Scene_IAP_cfg.txt" />
     <None Include="Assets/Resources/_config/_startpoint/StartPoint_2.txt" />
     <None Include="Assets/Resources/_config/_triggerpoint/TriggerPoint_150301.txt" />
     <None Include="Assets/Shader/COL_LM_AB.shader" />

@@ -167,14 +167,4 @@ public class Scene_Tavern : MonoBehaviour
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneTavern("TUIEvent_Back"));
 		}
 	}
-
-	public void TUIEvent_IAP(TUIControl control, int event_type, float wparam, float lparam, object data)
-	{
-		if (event_type == 3 && !is_fade_out)
-		{
-			next_scene = "Scene_IAP";
-			is_fade_out = true;
-			m_fade.FadeOut();
-		}
-	}
 }

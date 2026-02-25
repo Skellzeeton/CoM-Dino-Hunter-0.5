@@ -261,16 +261,6 @@ public class Scene_Stash : MonoBehaviour
 		}
 	}
 
-	public void TUIEvent_IAP(TUIControl control, int event_type, float wparam, float lparam, object data)
-	{
-		if (event_type == 3 && !is_fade_out)
-		{
-			next_scene = "Scene_IAP";
-			is_fade_out = true;
-			m_fade.FadeOut();
-		}
-	}
-
 	public void UpdateSellButton()
 	{
 		if (m_plus_down)
