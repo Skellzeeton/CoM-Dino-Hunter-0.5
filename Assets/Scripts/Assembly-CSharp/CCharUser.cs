@@ -170,15 +170,14 @@ public class CCharUser : CCharPlayer
 			}
 		}
 		float value = m_Property.GetValue(kProEnum.Char_MoveSpeedUp);
-		m_v2Move.x = (m_fCurSpeedSide + value) * (float)((m_v2MoveDir.x > 0f) ? 1 : (-1)) * (1f - num);
-		m_v2Move.y = (m_fCurSpeed + value) * (float)((m_v2MoveDir.y > 0f) ? 1 : (-1)) * (1f - num);
-		m_v2Move *= deltaTime;
-		Vector3 zero = Vector3.zero;
-		zero += m_ModelTransform.forward * m_v2Move.y;
-		zero += m_ModelTransform.right * m_v2Move.x;
-		Vector3 position = m_ModelTransform.position;
-		zero.y = -1f * deltaTime;
-		CollisionFlags collisionFlags = m_Controller.Move(zero);
+		float speedModifier = (1f - num);
+		float bonusSpeed = m_Property.GetValue(kProEnum.Char_MoveSpeedUp);
+		float finalSpeed = (m_fCurSpeed + bonusSpeed) * speedModifier;
+		Vector3 moveDir = m_ModelTransform.forward * m_v2MoveDir.y +
+		                  m_ModelTransform.right   * m_v2MoveDir.x;
+		Vector3 move = moveDir * finalSpeed * deltaTime;
+		move.y = -1f * deltaTime;
+		CollisionFlags collisionFlags = m_Controller.Move(move);
 		m_bUpdatePos = true;
 	}
 
@@ -199,33 +198,38 @@ public class CCharUser : CCharPlayer
 
 	public void MoveByCompass(float fRateX, float fRateY)
 	{
-		if (fRateX != 0f || fRateY != 0f)
+		if (fRateX == 0f && fRateY == 0f)
+			return;
+
+		Vector2 rawInput = new Vector2(fRateX, fRateY);
+
+		// Clamp magnitude to 1 so diagonals don’t stack
+		float inputMagnitude = Mathf.Clamp01(rawInput.magnitude);
+
+		// Normalize direction (safe)
+		Vector2 normalizedDir = rawInput.normalized;
+
+		m_v2MoveDir = normalizedDir;
+
+		float baseSpeed = m_Property.GetValue(kProEnum.MoveSpeed);
+
+		// Preserve analog strength
+		m_fCurSpeedMax = baseSpeed * inputMagnitude;
+		m_fCurSpeedSideMax = baseSpeed * inputMagnitude;
+
+		UpdateMoveAnim(normalizedDir);
+
+		if (m_CharMoveState == kCharMoveState.None)
 		{
-			m_v2MoveDir = new Vector2(fRateX, fRateY);
-			m_fCurSpeedMax = m_Property.GetValue(kProEnum.MoveSpeed) * (float)((!(fRateY > 0f)) ? 1 : 1) * Mathf.Abs(fRateY);
-			m_fCurSpeedSideMax = m_Property.GetValue(kProEnum.MoveSpeed) * 1f * Mathf.Abs(fRateX);
-			UpdateMoveAnim(m_v2MoveDir);
-			if (m_CharMoveState == kCharMoveState.None)
-			{
-				m_CharMoveState = ((m_CharMoveMode != kCharMoveMode.Ground) ? kCharMoveState.Acc : kCharMoveState.Max);
-			}
-			if (m_CharMoveState == kCharMoveState.Max)
-			{
-				m_fCurSpeed = m_fCurSpeedMax;
-				m_fCurSpeedSide = m_fCurSpeedSideMax;
-			}
-			if (m_fCurSpeed > m_fCurSpeedMax)
-			{
-				m_fCurSpeed = m_fCurSpeedMax;
-			}
-			if (m_fCurSpeedSide > m_fCurSpeedSideMax)
-			{
-				m_fCurSpeedSide = m_fCurSpeedSideMax;
-			}
-			if (m_fCurSpeed == m_fCurSpeedMax && m_fCurSpeedSide == m_fCurSpeedSideMax)
-			{
-				m_CharMoveState = kCharMoveState.Max;
-			}
+			m_CharMoveState = (m_CharMoveMode != kCharMoveMode.Ground)
+				? kCharMoveState.Acc
+				: kCharMoveState.Max;
+		}
+
+		if (m_CharMoveState == kCharMoveState.Max)
+		{
+			m_fCurSpeed = m_fCurSpeedMax;
+			m_fCurSpeedSide = m_fCurSpeedSideMax;
 		}
 	}
 

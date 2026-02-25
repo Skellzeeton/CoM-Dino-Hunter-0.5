@@ -233,6 +233,7 @@ public class Scene_Forge : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			PopupWeaponBuy.PopupWeaponBuyState state = control.GetComponent<PopupWeaponBuy>().GetState();
 			if (state == PopupWeaponBuy.PopupWeaponBuyState.State_Update || state == PopupWeaponBuy.PopupWeaponBuyState.State_Craft)
 			{
@@ -245,6 +246,7 @@ public class Scene_Forge : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_weapon.CloseWeaponUpdate();
 		}
 	}
@@ -253,6 +255,7 @@ public class Scene_Forge : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			GoodsNeedItemBuy component = control.GetComponent<GoodsNeedItemBuy>();
 			int goodsID = component.GetGoodsID();
 			int goodsQuality = (int)component.GetGoodsQuality();
@@ -266,6 +269,7 @@ public class Scene_Forge : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			int weaponID = popup_weapon.GetWeaponID();
 			int weaponType = (int)popup_weapon.GetWeaponType();
 			popup_weapon.CloseWeaponUpdate();
@@ -285,6 +289,7 @@ public class Scene_Forge : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneForge("TUIEvent_Back"));
 		}
 	}
@@ -293,6 +298,7 @@ public class Scene_Forge : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			GoodsNeedItem component = control.transform.parent.GetComponent<GoodsNeedItem>();
 			if (component == null)
 			{

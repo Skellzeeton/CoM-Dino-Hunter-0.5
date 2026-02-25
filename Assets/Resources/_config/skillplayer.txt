@@ -71,7 +71,7 @@ useaudio
 		<!-- BUFF 1 8  -->
 		<skill id="1" lvl="1" type="0" icon="kuangbao" targetlimit="3" action="14"  skillmode="1" skillmodevalue="0.3" func="3" valuex="101" valuey="8" name="Kill Shot" desc="Increases weapon damage for a short time."/>
     <!--   +  -->
-		<skill id="2" lvl="1" type="0" icon="chongfeng" action="15" rangetype="1" rangetypevalue="0,4,0,0" skillmode="6" skillmodevalue="15,1.5,0.25" func="2,4" valuex="60,5" valuey="0,0" name="Bull Rush" desc="Charge enemies, damaging them and knocking them back."/>
+		<skill id="2" lvl="1" type="0" icon="chongfeng" action="15" useaudio="Skill_Rush" rangetype="1" rangetypevalue="0,4,0,0" skillmode="6" skillmodevalue="15,1.5,0.25" func="2,4" valuex="60,5" valuey="0,0" name="Bull Rush" desc="Charge enemies, damaging them and knocking them back."/>
     <!-- 30% -->
 		<skill id="3" lvl="1" type="0" icon="zhiliao" targetlimit="3" action="14" rangetype="0" rangetypevalue="" skillmode="1" skillmodevalue="0.3" func="3,9" valuex="104,30" valuey="1" name="Heal" desc="Restore your HP."/>
 		<!-- BUFF 103 6 -->

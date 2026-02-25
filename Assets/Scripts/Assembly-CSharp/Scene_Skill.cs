@@ -125,6 +125,7 @@ public class Scene_Skill : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			if (popup_skill.GetStateBtnSkill() == Btn_BuySkill.StateButtonSkill.State_Unlock)
 			{
 				int scrollListIndex = popup_skill.GetScrollListIndex();
@@ -148,6 +149,7 @@ public class Scene_Skill : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			int scrollListIndex = popup_skill.GetScrollListIndex();
 			int skillID = popup_skill.GetSkillID();
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneSkill("TUIEvent_SkillUpdate", scrollListIndex, skillID));
@@ -159,6 +161,7 @@ public class Scene_Skill : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_skill.CloseSkillUpdate();
 		}
 	}
@@ -175,6 +178,7 @@ public class Scene_Skill : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneSkill("TUIEvent_Back"));
 		}
 	}

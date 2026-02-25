@@ -431,7 +431,7 @@ public class iGameUIBase : MonoBehaviour
 
 	public void ShowRevive(bool bShow)
 	{
-		if (m_UIManager == null || m_UIManager.mPanelRevive == null)
+		/*if (m_UIManager == null || m_UIManager.mPanelRevive == null)
 		{
 			return;
 		}
@@ -463,7 +463,7 @@ public class iGameUIBase : MonoBehaviour
 				}
 			}
 		}
-		m_UIManager.mPanelRevive.SetReviveTime(10f);
+		m_UIManager.mPanelRevive.SetReviveTime(10f);*/
 	}
 
 	public void ShowMaterial(bool bShow)
@@ -938,6 +938,7 @@ public class iGameUIBase : MonoBehaviour
 		{
 			return;
 		}
+		CUISound.GetInstance().Play("UI_Weapon_change");
 		int num = m_nCurWeaponIndex + 1;
 		while (num != m_nCurWeaponIndex && m_GameState.GetWeapon(num) == null)
 		{
@@ -949,6 +950,11 @@ public class iGameUIBase : MonoBehaviour
 		}
 		m_nCurWeaponIndex = num;
 		user.SwitchWeapon(m_nCurWeaponIndex);
+	}
+	
+	public void TriggerSkillFromInput()
+	{
+		Event_UseSkill();
 	}
 
 	protected void Event_UseSkill()

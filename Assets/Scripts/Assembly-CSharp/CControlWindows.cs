@@ -19,33 +19,6 @@ public class CControlWindows : CControlBase
         {
             return;
         }
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            m_GameScene.ReviveGame();
-        }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            m_GameState.Reset();
-            m_GameScene.Reset();
-            m_GameScene.StartGame();
-        }
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            TNetManager.GetInstance().DisConnect();
-            iGameApp.GetInstance().EnterScene(kGameSceneEnum.Map);
-        }
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            TNetManager.GetInstance().Login("GGYY_" + Random.Range(0, 101), string.Empty);
-        }
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            TNetManager.GetInstance().CreateRoom("GGYY's room", string.Empty, 1, 2, RoomCreateCmd.RoomType.limit, RoomCreateCmd.RoomSwitchMasterType.Auto, string.Empty);
-        }
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            TNetManager.GetInstance().ApplyRoomList(-1, 0, 10, RoomDragListCmd.ListType.all);
-        }
         if (Input.GetKeyDown(KeyCode.F1))
         {
             ToggleMouseLock();
@@ -114,14 +87,6 @@ public class CControlWindows : CControlBase
         }
         if (m_User.IsCanAttack())
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                m_User.SetFire(true);
-            }
-            if (Input.GetMouseButtonUp(0))
-            {
-                m_User.SetFire(false);
-            }
             if (Input.GetMouseButton(0))
             {
                 if (!m_User.IsFire())
@@ -138,7 +103,11 @@ public class CControlWindows : CControlBase
             }
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                m_User.UseSkill(m_User.SkillID);
+                iGameUIBase gameUI = m_GameScene.GetGameUI();
+                if (gameUI != null)
+                {
+                    gameUI.TriggerSkillFromInput();
+                }
             }
         }
         if (Input.GetKeyDown(KeyCode.Q))
@@ -154,6 +123,7 @@ public class CControlWindows : CControlBase
             }
             m_nCurWeaponIndex = num;
             m_User.SwitchWeapon(m_nCurWeaponIndex);
+            CUISound.GetInstance().Play("UI_Weapon_change");
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -168,15 +138,16 @@ public class CControlWindows : CControlBase
             }
             m_nCurWeaponIndex = num2;
             m_User.SwitchWeapon(m_nCurWeaponIndex);
+            CUISound.GetInstance().Play("UI_Weapon_change");
         }
-        if (Input.GetKeyDown(KeyCode.Alpha9))
+        /*if (Input.GetKeyDown(KeyCode.Alpha9))
         {
             m_GameScene.GameOver(true);
         }
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
             m_GameScene.GameOver(false);
-        }
+        }*/
     }
 
     public override void LateUpdate(float deltaTime)

@@ -23,6 +23,7 @@ public class Scene_Main : MonoBehaviour
 
 	private void Start()
 	{
+		Application.targetFrameRate = 60;
 		CUISound.GetInstance().Play("BGM_theme");
 	}
 

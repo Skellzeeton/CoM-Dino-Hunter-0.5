@@ -127,6 +127,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			popup_stash.ShowCapacityAdd();
 		}
 	}
@@ -135,6 +136,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneStash("TUIEvent_AddCapacity"));
 			popup_stash.CloseCapacityAdd();
 		}
@@ -144,6 +146,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_stash.CloseCapacityAdd();
 		}
 	}
@@ -168,6 +171,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			Btn_Select_Stash goodsControl = popup_stash.GetGoodsControl();
 			if (goodsControl == null || goodsControl.GetGoodsInfo() == null)
 			{
@@ -184,6 +188,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			popup_stash.ShowSell();
 		}
 	}
@@ -222,6 +227,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			Btn_Select_Stash goodsControl = popup_stash.GetGoodsControl();
 			if (goodsControl == null || goodsControl.GetGoodsInfo() == null)
 			{
@@ -241,6 +247,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_stash.HideSell();
 		}
 	}
@@ -257,6 +264,7 @@ public class Scene_Stash : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneStash("TUIEvent_Back"));
 		}
 	}

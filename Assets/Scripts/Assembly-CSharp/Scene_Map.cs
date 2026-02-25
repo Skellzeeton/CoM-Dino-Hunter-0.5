@@ -155,6 +155,7 @@ public class Scene_Map : MonoBehaviour
 		{
 			return;
 		}
+		CUISound.GetInstance().Play("UI_Button");
 		level_point = control.transform.parent.transform;
 		LevelPoint component = level_point.GetComponent<LevelPoint>();
 		LevelPointEx component2 = level_point.GetComponent<LevelPointEx>();
@@ -194,6 +195,7 @@ public class Scene_Map : MonoBehaviour
 		{
 			return;
 		}
+		CUISound.GetInstance().Play("UI_Button");
 		popup_level_map.Hide();
 		if (level_point == null)
 		{
@@ -250,6 +252,7 @@ public class Scene_Map : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Cancle");
 			popup_level_map.Hide();
 		}
 	}
@@ -258,6 +261,7 @@ public class Scene_Map : MonoBehaviour
 	{
 		if (event_type == 3)
 		{
+			CUISound.GetInstance().Play("UI_Button");
 			global::EventCenter.EventCenter.Instance.Publish(this, new TUIEvent.SendEvent_SceneMap("TUIEvent_Back"));
 		}
 	}
