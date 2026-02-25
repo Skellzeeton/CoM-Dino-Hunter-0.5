@@ -189,7 +189,7 @@ rewardmaterialcount
 		<RewardMaterial material="30060" countlist="0,1,2,3" countratelist="0,25,12,3"  />
 	</gamelevel>
 	
-	<gamelevel id="1020" BGM="BGM_Map02" BGM_ambience="Amb_Map02_WindValley"  scenename="SceneGorge" isskyscene="true" nav_plane="225" bp_cfg="10101" gamewave="10020001,10020002,10020003,10020004,10020005,10020006,10020007" task="1020"  sp_cfg_sky="10201" sp_cfg_ground="10111" hp_cfg_def="10501" dropgroup="11020" dropcount="1" dropcountrate="100" exp="1200"  gold="720" desc="Hunt Killosaurus Rex X 2" name="20.Fight Your Way out">
+	<gamelevel id="1020" BGM="BGM_Map02" BGM_ambience="Amb_Map02_WindValley"  scenename="SceneGorge" isskyscene="true" nav_plane="225" bp_cfg="10101" gamewave="10020001,10020002,10020003,10020004,10020005,10020006,10020007" task="1020"  sp_cfg_sky="10201" sp_cfg_ground="10111" hp_cfg_def="10501" dropgroup="11020" dropcount="1" dropcountrate="100" exp="1200"  gold="720" desc="Hunt Terrordactyl X 2" name="20.Fight Your Way out">
 		<MonsterNumLimit>
 			<limit type="1"  maxnumber="18" />
 		</MonsterNumLimit>

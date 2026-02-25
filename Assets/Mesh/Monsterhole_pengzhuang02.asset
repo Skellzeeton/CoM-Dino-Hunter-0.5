@@ -3,11 +3,10 @@
 --- !u!43 &4300000
 Mesh:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: Monsterhole_pengzhuang02
-  serializedVersion: 11
+  serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -27,17 +26,15 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 0
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
   m_IndexBuffer: 010000000300030000000200
+  m_Skin: []
   m_VertexData:
-    serializedVersion: 3
+    m_CurrentChannels: 1
     m_VertexCount: 4
     m_Channels:
     - stream: 0
@@ -57,14 +54,6 @@ Mesh:
       format: 0
       dimension: 0
     - stream: 0
-      offset: 12
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 20
-      format: 0
-      dimension: 2
-    - stream: 0
       offset: 0
       format: 0
       dimension: 0
@@ -80,24 +69,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 112
-    _typelessdata: 526e97406abbdf3579b42341000000000ad7a33b0d391fbfd387813f526e97c06abbdf3579b423410000803f0ad7a33b8a9fcfbed387813f526e9740a61bf0b40000e0b60000000052b87e3f0d391fbf5ea64b3f526e97c0a61bf0b40000e0b60000803f52b87e3f8a9fcfbe5ea64b3f
+    m_DataSize: 48
+    _typelessdata: 526e97406abbdf3579b42341526e97c06abbdf3579b42341526e9740a61bf0b40000e0b6526e97c0a61bf0b40000e0b6
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -154,14 +127,6 @@ Mesh:
     m_Center: {x: 0, y: 0.00000060984894, z: 5.115777}
     m_Extent: {x: 4.732217, y: 0.000001057085, z: 5.1157837}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
-  'm_MeshMetrics[0]': 1
-  'm_MeshMetrics[1]': 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
+  m_MeshOptimized: 0

@@ -3,11 +3,10 @@
 --- !u!43 &4300000
 Mesh:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: level6_penzhuang07
-  serializedVersion: 11
+  serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -15,7 +14,7 @@ Mesh:
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 24
+    vertexCount: 8
     localAABB:
       m_Center: {x: 0, y: 0, z: 1.3261003}
       m_Extent: {x: 0.6398926, y: 0.8734436, z: 1.3261003}
@@ -27,18 +26,16 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 0
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 0200000003000300000001000500040007000700040006000a0008000900090008000b000c0014001500150014000d0010000e000f000f000e001100160012001300130012001700
+  m_IndexBuffer: 000001000200000003000100040005000600040007000500000006000300000004000600030005000100030006000500010007000200010005000700020004000000020007000400
+  m_Skin: []
   m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
+    m_CurrentChannels: 1
+    m_VertexCount: 8
     m_Channels:
     - stream: 0
       offset: 0
@@ -57,14 +54,6 @@ Mesh:
       format: 0
       dimension: 0
     - stream: 0
-      offset: 12
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 20
-      format: 0
-      dimension: 2
-    - stream: 0
       offset: 0
       format: 0
       dimension: 0
@@ -80,24 +69,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 672
-    _typelessdata: 00d0233f009a5fbf000000000000803f000000000000803f0000000000d023bf009a5fbf000000000000000000000000000000000000000000d0233f009a5f3f000000000000803f0000803f0000803f0000803f00d023bf009a5f3f00000000000000000000803f000000000000803f00d0233f009a5fbfa8bd29400000000000000000000000000000000000d023bf009a5fbfa8bd29400000803f000000000000803f0000000000d0233f009a5f3fa8bd2940000000000000803f000000000000803f00d023bf009a5f3fa8bd29400000803f0000803f0000803f0000803f00d0233f009a5fbf000000000000000000000000000000000000000000d023bf009a5fbfa8bd29400000803f0000803f0000803f0000803f00d023bf009a5fbf000000000000803f000000000000803f0000000000d0233f009a5fbfa8bd2940000000000000803f000000000000803f00d023bf009a5f3f000000000000803f000000000000803f0000000000d023bf009a5fbfa8bd2940000000000000803f000000000000803f00d023bf009a5f3f000000000000000000000000000000000000000000d0233f009a5f3fa8bd29400000803f0000803f0000803f0000803f00d0233f009a5f3f000000000000803f000000000000803f0000000000d023bf009a5f3fa8bd2940000000000000803f000000000000803f00d0233f009a5f3f000000000000000000000000000000000000000000d0233f009a5fbfa8bd29400000803f0000803f0000803f0000803f00d023bf009a5fbf000000000000000000000000000000000000000000d023bf009a5f3fa8bd29400000803f0000803f0000803f0000803f00d0233f009a5fbf000000000000803f000000000000803f0000000000d0233f009a5f3fa8bd2940000000000000803f000000000000803f
+    m_DataSize: 96
+    _typelessdata: 00d0233f009a5fbf0000000000d023bf009a5f3f0000000000d0233f009a5f3f0000000000d023bf009a5fbf0000000000d0233f009a5fbfa8bd294000d023bf009a5f3fa8bd294000d023bf009a5fbfa8bd294000d0233f009a5f3fa8bd2940
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -154,14 +127,6 @@ Mesh:
     m_Center: {x: 0, y: 0, z: 1.3261003}
     m_Extent: {x: 0.6398926, y: 0.8734436, z: 1.3261003}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
-  'm_MeshMetrics[0]': 1
-  'm_MeshMetrics[1]': 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
+  m_MeshOptimized: 0
