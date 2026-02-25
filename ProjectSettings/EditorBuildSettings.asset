@@ -2,68 +2,98 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
+  serializedVersion: 2
   m_Scenes:
   - enabled: 1
     path: Assets/Scene/Scene_Main.unity
+    guid: 0de1ebde429c58d4f9e861f7f1f041c5
   - enabled: 1
     path: Assets/_Scenes/SceneForest.unity
+    guid: 4d2c89cf27981c74aa01993b5095b086
   - enabled: 1
     path: Assets/_Scenes/SceneGorge.unity
+    guid: d4d8b8ca4727bf246b07db12cf26ba68
   - enabled: 1
     path: Assets/_Scenes/SceneLava.unity
+    guid: a2478ccacc8c0994fbab7574382a5b4e
   - enabled: 1
     path: Assets/_Scenes/SceneLava2.unity
+    guid: 183f9466f9ea59f40aacc9041623fb82
   - enabled: 1
     path: Assets/_Scenes/SceneSnow.unity
+    guid: 8b5634474bbfa6045a34ef8b7155f240
   - enabled: 1
     path: Assets/_Scenes/Yulin_shaguai01.unity
+    guid: 9a55b923ecb9a3142bd0cfc32cf3c116
   - enabled: 1
     path: Assets/_Scenes/Yulin_shaguai02.unity
+    guid: e051001dd620f9a4382ab1b7b8b45e03
   - enabled: 1
     path: Assets/_Scenes/Yulin_shaguai03.unity
+    guid: 19c6fef5bb9d763438ef530cfd26b96a
   - enabled: 1
     path: Assets/_Scenes/Yulin_shaguai04.unity
+    guid: 5f13cf7f99dfe4f42abc20291ea45dde
   - enabled: 1
     path: Assets/_Scenes/Yulin_shouwei01.unity
+    guid: cd44f8b986553344e93f6a4fd277679c
   - enabled: 1
     path: Assets/_Scenes/Yulin_shouwei02.unity
+    guid: cba2eea56bae6a54a902a1066a905c61
   - enabled: 1
     path: Assets/_Scenes/Yulin_shouwei03.unity
-  - enabled: 1
-    path: Assets/Scene/Scene_IAP.unity
+    guid: 106fda11e80570d429b8a6ab9eb61af5
   - enabled: 1
     path: Assets/_Scenes/Yulin_shouwei04.unity
+    guid: 6e292c9504cd0f54ca463c66e00ce25e
   - enabled: 1
     path: Assets/_Scenes/Yulin_shouwei05.unity
+    guid: 1becfcc42d334fe43971692796faf907
   - enabled: 1
     path: Assets/_Scenes/Yulin_shouwei06.unity
+    guid: a6578c48a262ee14491aae486a10a6f6
   - enabled: 1
     path: Assets/_Scenes/Yulin_toudan01.unity
+    guid: 5dc32f8bbf855f046b75f34a9b7e3d3b
   - enabled: 1
     path: Assets/_Scenes/Yulin_toudan02.unity
+    guid: 4dfdba4e80b291c48b5340487a7c65fa
   - enabled: 1
     path: Assets/_Scenes/Yulin_toudan03.unity
+    guid: 9daa86968f4d96648b38a6cb5d2f06f0
   - enabled: 1
     path: Assets/_Scenes/Yulin_toudan04.unity
+    guid: 9ce10037608fcce4baede4fae5945b28
   - enabled: 1
     path: Assets/_Scenes/Yulin_toudan05.unity
+    guid: ca9e13abd8a8df048984408cb6a04e0b
   - enabled: 1
     path: Assets/Scene/Scene_Equip.unity
+    guid: ac633563d2b0fad49907fd896a5ffa9e
   - enabled: 1
     path: Assets/Scene/Scene_Forge.unity
+    guid: 22d35ce52e9bf194286bb00cea8033e9
   - enabled: 1
     path: Assets/Scene/Scene_Loading.unity
+    guid: c453b17de14c38c44a73a2a787e95c5b
   - enabled: 1
     path: Assets/_Scenes/SceneLoad.unity
+    guid: 3063fdafe2de3f24b81a5903f116ee98
   - enabled: 1
     path: Assets/Scene/Scene_MainMenu.unity
+    guid: 2e5e4b8442df2964ca3a1236436c8383
   - enabled: 1
     path: Assets/Scene/Scene_Map.unity
+    guid: 78617893653570e47a4b55b0698586ac
   - enabled: 1
     path: Assets/Scene/Scene_Skill.unity
+    guid: 22b7b4915114f5b40a9540c9b7319644
   - enabled: 1
     path: Assets/Scene/Scene_Stash.unity
+    guid: cf3c4a8b2697e81469c42b4d9cbd78d7
   - enabled: 1
     path: Assets/Scene/Scene_Tavern.unity
+    guid: 70ffdcc5f91fe2b45bf672c8636ac8e6
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
