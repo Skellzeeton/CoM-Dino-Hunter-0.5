@@ -6,19 +6,19 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: level4_shinei03
+  m_Name: Plane01
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 36
+    indexCount: 6
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 22
+    vertexCount: 4
     localAABB:
-      m_Center: {x: 0.0000019073486, y: 0.0000038146973, z: 0}
-      m_Extent: {x: 8.307135, y: 8.794216, z: 5.042293}
+      m_Center: {x: -3.2008815, y: -10.471617, z: 0.0000018541855}
+      m_Extent: {x: 16.495483, y: 27.514368, z: 0.000003345826}
   m_Shapes:
     vertices: []
     shapes: []
@@ -35,10 +35,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 0200000007000700000005000100030006000600030008000c0004000b000b000400090015000d00140014000d000e00110013000a000a00130010000a0010000f00120011000a00
+  m_IndexBuffer: 000002000100010002000300
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 22
+    m_VertexCount: 4
     m_Channels:
     - stream: 0
       offset: 0
@@ -61,10 +61,6 @@ Mesh:
       format: 0
       dimension: 2
     - stream: 0
-      offset: 20
-      format: 0
-      dimension: 2
-    - stream: 0
       offset: 0
       format: 0
       dimension: 0
@@ -96,8 +92,12 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 616
-    _typelessdata: 08ea0441b03691c0775aa1c0306c143f52aa713df105673fbd325b3fd069debf18b50cc1775aa1c029f7313f2803003c0a4f783fd8ca633f808dbf3f20b50c41775aa1c06c0e223f52966b3daa0a703f6a26563f04ea04c120048840775aa1c04d01323fe6fd363deb2a783f7c995a3fe880a5c0300fd440775aa1c0a4da2a3ffde0603dcac2753fb262573f08ea0441b03691c0755aa140b2ad143f714dc23d3d216a3fe3a5603fd069debf18b50cc1755aa140317b383fd086fc3b9c0c723f90da633f808dbf3f20b50c41755aa140ec4f223f6d43bf3dcea0703f6d015b3f04ea04c120048840755aa1405385383f068e363d3c75733f6e605c3fe880a5c0300fd440755aa14048bc2a3f7feeb93d5be3723fe2eb5b3f30944a40c0eec0c0775aa140f91a343f5e56b03d3ee36d3faaba623f04ea04c120048840755aa140b2512e3f574dba3d3c75733f6e605c3f04ea04c120048840775aa1c012702e3fad9e613deb2a783f7c995a3f808dbf3f20b50c41775aa1c07677243f3d8f5f3daa0a703f6a26563f808dbf3f20b50c41755aa1401659243fa345b93dcea0703f6d015b3f08ea0441b03691c0755aa140af84313fe6c8b33d3d216a3fe3a5603f808dbf3f20b50c41755aa14087b3313f4442723dcea0703f6d015b3f04ea04c120048840755aa1408dfe363f2c21713d3c75733f6e605c3fd069debf18b50cc1755aa14061db363fbecbb13d9c0c723f90da633fe880a5c0300fd440755aa140231b353f2cf76a3d5be3723fe2eb5b3fe880a5c0300fd440755aa14048bc2a3f7feeb93d5be3723fe2eb5b3fe880a5c0300fd440775aa1c0a4da2a3ffde0603dcac2753fb262573f
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 80
+    _typelessdata: b1b65441a6f117c2c27bae36000000000000000028929dc1a5f117c2c17bae360000803f00000000b1b654418e5788415f34c8b5000000000000803f28929dc18e5788416034c8b50000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -151,8 +151,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0.0000019073486, y: 0.0000038146973, z: 0}
-    m_Extent: {x: 8.307135, y: 8.794216, z: 5.042293}
+    m_Center: {x: -3.2008815, y: -10.471617, z: 0.0000018541855}
+    m_Extent: {x: 16.495483, y: 27.514368, z: 0.000003345826}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 

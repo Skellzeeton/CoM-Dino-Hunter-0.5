@@ -7,10 +7,21 @@ public class CControlWindows : CControlBase
     private bool m_mouseLocked = false;
     private const float MOUSE_MOVE_DEADZONE = 0.001f;
 
+    private const float kBaseYawSpeed = 270f;
+    private const float kBasePitchSpeed = 180f;
+    private float m_sensitivityPercent = 1.0f;
+    private const float kSensitivityStep = 0.125f;
+    private const float kSensitivityMin = 0.25f;
+    private const float kSensitivityMax = 2.0f;
+    private const string kSensitivityPrefKey = "MouseSensitivityPercent";
+        
     public override void Initialize()
     {
         base.Initialize();
         m_GameUI.RegisterEvent_Windows();
+        m_sensitivityPercent = PlayerPrefs.GetFloat(kSensitivityPrefKey, 1.0f);
+        m_sensitivityPercent = Mathf.Clamp(m_sensitivityPercent, kSensitivityMin, kSensitivityMax);
+        Debug.Log("Loaded Sensitivity: " + Mathf.RoundToInt(m_sensitivityPercent * 100f) + "%");
     }
 
     public override void Update(float deltaTime)
@@ -19,33 +30,27 @@ public class CControlWindows : CControlBase
         {
             return;
         }
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            m_sensitivityPercent = Mathf.Max(kSensitivityMin, m_sensitivityPercent - kSensitivityStep);
+            SaveSensitivity();
+        }
+        else if (Input.GetKeyDown(KeyCode.O))
+        {
+            m_sensitivityPercent = Mathf.Min(kSensitivityMax, m_sensitivityPercent + kSensitivityStep);
+            SaveSensitivity();
+        }
         if (Input.GetKeyDown(KeyCode.F1))
         {
             ToggleMouseLock();
         }
-        if (m_User == null || (m_GameScene.GameStatus != iGameSceneBase.kGameStatus.Gameing && m_GameScene.GameStatus != iGameSceneBase.kGameStatus.GameOver_ShowTime))
-        {
-            return;
-        }
         Vector2 zero = Vector2.zero;
         if (m_User.IsCanMove())
         {
-            if (Input.GetKey(KeyCode.W))
-            {
-                zero.y += 1f;
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-                zero.y += -1f;
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                zero.x += -1f;
-            }
-            if (Input.GetKey(KeyCode.D))
-            {
-                zero.x += 1f;
-            }
+            if (Input.GetKey(KeyCode.W)) zero.y += 1f;
+            if (Input.GetKey(KeyCode.S)) zero.y += -1f;
+            if (Input.GetKey(KeyCode.A)) zero.x += -1f;
+            if (Input.GetKey(KeyCode.D)) zero.x += 1f;
         }
 
         if (zero == Vector2.zero)
@@ -58,14 +63,17 @@ public class CControlWindows : CControlBase
             Ray ray = m_Camera.ScreenPointToRay(m_GameState.ScreenCenter, 0f);
             m_User.LookAt(ray.GetPoint(1000f));
         }
+
         if (m_mouseLocked)
         {
             ApplyCursorLock(true);
+            float currentYawSpeed = kBaseYawSpeed * m_sensitivityPercent;
+            float currentPitchSpeed = kBasePitchSpeed * m_sensitivityPercent;
             float axisX = Input.GetAxis("Mouse X");
             float axisY = Input.GetAxis("Mouse Y");
             if (Mathf.Abs(axisX) > 0f)
             {
-                m_Camera.Yaw(Mathf.Clamp(axisX, -1f, 1f) * 270f * Time.deltaTime);
+                m_Camera.Yaw(Mathf.Clamp(axisX, -1f, 1f) * currentYawSpeed * Time.deltaTime);
                 if (m_User.IsCanAim())
                 {
                     m_User.SetYaw(m_Camera.GetYaw());
@@ -73,7 +81,7 @@ public class CControlWindows : CControlBase
             }
             if (Mathf.Abs(axisY) > 0f)
             {
-                m_Camera.Pitch(Mathf.Clamp(axisY, -1f, 1f) * 270f * Time.deltaTime);
+                m_Camera.Pitch(Mathf.Clamp(axisY, -1f, 1f) * currentPitchSpeed * Time.deltaTime);
             }
             if (m_User.IsCanAim() && (Mathf.Abs(axisX) > 0f || Mathf.Abs(axisY) > 0f))
             {
@@ -110,16 +118,14 @@ public class CControlWindows : CControlBase
                 }
             }
         }
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             int num = m_nCurWeaponIndex - 1;
             while (num != m_nCurWeaponIndex && m_GameState.GetWeapon(num) == null)
             {
                 num--;
-                if (num < 0)
-                {
-                    num = 2;
-                }
+                if (num < 0) num = 2;
             }
             m_nCurWeaponIndex = num;
             m_User.SwitchWeapon(m_nCurWeaponIndex);
@@ -131,10 +137,7 @@ public class CControlWindows : CControlBase
             while (num2 != m_nCurWeaponIndex && m_GameState.GetWeapon(num2) == null)
             {
                 num2++;
-                if (num2 >= 3)
-                {
-                    num2 = 0;
-                }
+                if (num2 >= 3) num2 = 0;
             }
             m_nCurWeaponIndex = num2;
             m_User.SwitchWeapon(m_nCurWeaponIndex);
@@ -149,17 +152,24 @@ public class CControlWindows : CControlBase
             m_GameScene.GameOver(false);
         }*/
     }
+    
+    private void SaveSensitivity()
+    {
+        PlayerPrefs.SetFloat(kSensitivityPrefKey, m_sensitivityPercent);
+        PlayerPrefs.Save();
+        Debug.Log("Sensitivity Saved: " + Mathf.RoundToInt(m_sensitivityPercent * 100f) + "%");
+    }
 
     public override void LateUpdate(float deltaTime)
     {
     }
-    
+
     private void ToggleMouseLock()
     {
         m_mouseLocked = !m_mouseLocked;
         ApplyCursorLock(m_mouseLocked);
     }
-    
+
     private void ApplyCursorLock(bool locked)
     {
         Cursor.lockState = locked ? CursorLockMode.Locked : CursorLockMode.None;

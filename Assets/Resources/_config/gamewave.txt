@@ -82,7 +82,7 @@ trigger 			 0 1wave 2id 3() 4wave 5()
 <mob id="4" level="1" spawnmode="1" startpoint="3" />
 	</gamewave>
 
-<gamewave id="1002002" trigger="0" triggervalue="40" delay="6" interval="0" number="1" loop="-1" cutscene="yanjiang2_boss" cutscene_BGM="BGM_Boss">
+<gamewave id="1002002" trigger="0" triggervalue="40" delay="6" interval="0" number="1" loop="-1" cutscene="yanjiang2_boss" cutscene_ambience="Amb_Volcano_Boss_Show" cutscene_BGM="BGM_Boss">
 <mob id="6" level="1" spawnmode="1" startpoint="2" />
 	</gamewave>
 
@@ -127,7 +127,7 @@ trigger 			 0 1wave 2id 3() 4wave 5()
 <mob id="10" level="1" spawnmode="1" startpoint="0" />
 	</gamewave>
 
-<gamewave id="1003002" trigger="0" triggervalue="40" delay="0" interval="0" number="1" loop="-1"  cutscene_BGM="BGM_Boss">
+<gamewave id="1003002" trigger="0" triggervalue="40" delay="0" interval="0" number="1" loop="-1" cutscene_BGM="BGM_Boss">
 <mob id="12" level="2" spawnmode="1" startpoint="0"/>
 	</gamewave>
 
@@ -169,7 +169,7 @@ trigger 			 0 1wave 2id 3() 4wave 5()
 <mob id="2" level="2" spawnmode="1" startpoint="0" />
 	</gamewave>
 
-<gamewave id="1004002" trigger="0" triggervalue="40" delay="5" interval="0" number="1" loop="-1" cutscene="yanjiang_cave_boss" cutscene_BGM="BGM_Boss">
+<gamewave id="1004002" trigger="0" triggervalue="40" delay="5" interval="0" number="1" loop="-1" cutscene="yanjiang_cave_boss" cutscene_ambience="Amb_Volcano_Boss_Show" cutscene_BGM="BGM_Boss">
 <mob id="9" level="2" spawnmode="1" startpoint="2" />
 	</gamewave>
 
@@ -220,7 +220,7 @@ trigger 			 0 1wave 2id 3() 4wave 5()
 <mob id="1" level="3" spawnmode="1" startpoint="0" />
 	</gamewave>
 
-<gamewave id="1005002" trigger="0" triggervalue="40" delay="5.5" interval="0" number="1" loop="-1" cutscene="yulinshaguai2_boss" cutscene_BGM="BGM_Boss">
+<gamewave id="1005002" trigger="0" triggervalue="40" delay="5.5" interval="0" number="1" loop="-1" cutscene="yulinshaguai2_boss" cutscene_ambience="Amb_Rainforest_Boss_Show" cutscene_BGM="BGM_Boss">
 <mob id="3" level="3" spawnmode="1" startpoint="3"/>
 	</gamewave>
 
@@ -267,7 +267,7 @@ trigger 			 0 1wave 2id 3() 4wave 5()
 <mob id="5" level="4" spawnmode="1" startpoint="0" />
 	</gamewave>
 
-<gamewave id="1006002" trigger="0" triggervalue="40" delay="5" interval="0" number="1" loop="-1" cutscene="xuedi_boss1" cutscene_BGM="BGM_Boss">
+<gamewave id="1006002" trigger="0" triggervalue="40" delay="5" interval="0" number="1" loop="-1" cutscene="xuedi_boss1" cutscene_ambience="Amb_Snowfield_Boss_Show" cutscene_BGM="BGM_Boss">
 <mob id="14" level="4" spawnmode="1" startpoint="5" />
 	</gamewave>
 
