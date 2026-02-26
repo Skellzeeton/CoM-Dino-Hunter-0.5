@@ -43,6 +43,8 @@ better compression and the mipmaps look significantly better.]
 
 ### Installation Instructions:
 
+##
+
 ### **Android**
 
 **1: Download the latest APK File from the latest release:
