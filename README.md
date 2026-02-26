@@ -20,8 +20,8 @@ better compression and the mipmaps look significantly better.]
 
 - **Improved performance**
 
-- **Everything is fully obainable as originally skills and**
-- **characters were impossible to obtain.**
+- **Everything is fully obainable now, as originally skills and
+characters were impossible to obtain.**
 
 - **Ported the game to unity 6**
 
