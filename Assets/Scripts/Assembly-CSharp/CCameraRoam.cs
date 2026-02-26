@@ -36,9 +36,7 @@ public class CCameraRoam
 	protected OnOrderEndDelegate m_OnOrderBeginFunc;
 
 	protected OnOrderEndDelegate m_OnOrderEndFunc;
-
-	protected iMSModelShowManager m_MSModelShowManager;
-
+	
 	public static CCameraRoam GetInstance()
 	{
 		if (m_Instance == null)
@@ -96,7 +94,6 @@ public class CCameraRoam
 		{
 			return false;
 		}
-		m_MSModelShowManager = gameObject.GetComponent<iMSModelShowManager>();
 		return true;
 	}
 
@@ -118,12 +115,6 @@ public class CCameraRoam
 		m_OnOrderBeginFunc = null;
 		m_OnOrderEndFunc = null;
 		Object.Destroy(m_RoamOrder.gameObject, 2f);
-		if (m_MSModelShowManager != null)
-		{
-			m_MSModelShowManager.Destroy();
-			Object.Destroy(m_MSModelShowManager.gameObject, 2f);
-			m_MSModelShowManager = null;
-		}
 		CSoundScene.GetInstance().StopAmbience();
 		if (m_CGInfo.sCGBGM.Length > 0)
 		{
