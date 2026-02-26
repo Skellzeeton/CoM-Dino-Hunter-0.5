@@ -1,5 +1,6 @@
 ## Call of Mini Dino Hunter 0.5 Revival
-alt="image(1)" src="https://github.com/user-attachments/assets/ecdc94a3-aa59-4867-8930-0e70cb337991" />
+
+<img width="861" height="462" alt="image(1)" src="https://github.com/user-attachments/assets/f6de999c-c107-452b-a412-264a49358d0e" />
 
 ### Fixed up the 0.5 beta version of Call Of Mini Dino Hunter with some improvements to make it a lot more enjoyable, below are all the changes:
 
