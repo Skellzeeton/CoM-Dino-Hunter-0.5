@@ -46,185 +46,185 @@
     <Analyzer Include="/home/skellz/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/EntryPatchData.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipConstants.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/BZip2/BZip2Exception.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TEventDispatcher.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetRoomVarType.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/PkzipClassicManaged.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/HeartBeatRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioEffectSequence.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/EncryptionAlgorithm.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomCreateCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomLockResCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyNotifyCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/HostSystemID.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomStartNotifyCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/BZip2/BZip2Constants.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/IEntryFactory.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipHelperStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BinaryProtocol/Packer.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSDataWrapper.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetObject.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ByteArray.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/PkzipClassicCryptoBase.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomMsgNotifyCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomSetUserStatusCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarException.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomLockReqCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ITaggedData.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/InflaterDynHeader.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/PendingBuffer.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/SharpZipBaseException.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDragListCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/LZW/LzwException.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Checksums/StrangeCRC.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/CompressionMethod.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TDispatchable.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetEventSystem.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomCreaterChangeNotifyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomJoinResCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioEffectTogether.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomUserStatusNotifyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/GeneralBitFlags.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SetUserStatusRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomStartReqCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/iDinoHunterAudioController.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipExtraData.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomKickUserNotifyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyResCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUserManager.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomStartRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/UnLockSthRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/Packet.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/LockSthRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/RawTaggedData.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipInputStream.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/LZW/LzwConstants.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Streams/InflaterInputStream.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSObject.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarBuffer.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomUserVarNotifyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetTimeManager.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ISFSDataSerializer.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipEntryFactory.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/JoinRoomRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarEntry.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomBroadcastMsgCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/LoginRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/PROTOCOLS.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioController.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Core/IScanFilter.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/CreateRoomRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSArrayEnumerator.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/GZip/GZipOutputStream.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SetRoomVariableRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ISFSArray.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/NetworkTransform.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Core/INameTransform.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/BZip2/BZip2OutputStream.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/GZip/GZipException.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetEventData.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/CircleBuffer.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SysLoginResCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetRoom.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Streams/InflaterInputBuffer.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BufferWriter.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/BZip2/BZip2InputStream.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ExtendedUnixData.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/PkzipClassic.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomSendMsgCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomJoinNotifyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Inflater.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/DefaultSFSDataSerializer.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSDataType.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDragListResCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioManager.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSCodecError.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSError.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUser.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RequestType.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/ZipAESStream.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ITAudioLimit.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BlowFish.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Deflater.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioAuxFade.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomRenameNotifyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/GetRoomListRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUserStatusType.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/EntryPatchData.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipConstants.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/BZip2/BZip2Exception.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetRoomVarType.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TEventDispatcher.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/HeartBeatRequest.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomCreateCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyNotifyCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/HostSystemID.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipHelperStream.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BinaryProtocol/Packer.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetObject.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomLockReqCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/PendingBuffer.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/SharpZipBaseException.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDragListCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Core/WindowsPathUtils.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomJoinResCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Checksums/Crc32.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomLeaveCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetEventRoom.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ITAudioEvent.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SysHeartbeatCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/NTTaggedData.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUserVarType.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipOutputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioEffectTogether.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUserVarType.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomUserStatusNotifyCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/GeneralBitFlags.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BufferReader.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/EventListenerDelegate.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BroadcastMessageRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Streams/OutputWindow.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SetUserStatusRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BinaryProtocol/Header.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomStartReqCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Checksums/IChecksum.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/iDinoHunterAudioController.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipExtraData.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomKickUserNotifyCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyResCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Streams/StreamManipulator.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUserManager.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomStartRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Streams/DeflaterOutputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/UnLockSthRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/Packet.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ISFSObject.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/LockSthRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/RawTaggedData.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/GZip/GZipInputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipInputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/LZW/LzwConstants.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Streams/InflaterInputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSObject.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarBuffer.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomUserVarNotifyCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarArchive.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/DeflaterPending.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/DeflaterEngine.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetTimeManager.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/DescriptorData.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/WindowsNameTransform.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/InvalidHeaderException.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ISFSDataSerializer.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipEntryFactory.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/JoinRoomRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SetUserVariableRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarEntry.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomBroadcastMsgCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ITaggedDataFactory.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/DeflaterHuffman.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/LoginRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SysLoginCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/LZW/LzwInputStream.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomLeaveNotifyCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/PROTOCOLS.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioController.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Core/IScanFilter.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/CreateRoomRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSArrayEnumerator.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarInputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/GZip/GZipOutputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SetRoomVariableRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ISFSArray.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomVarNotifyCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SysCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/NetworkTransform.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Core/INameTransform.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/BZip2/BZip2OutputStream.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/GZip/GZipException.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarHeader.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetEventData.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/CircleBuffer.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomUnlockResCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomJoinCmd.cs" />
-    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/ZipAESTransform.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SysLoginResCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomSetVarCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/ZipAESTransform.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetRoom.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Streams/InflaterInputBuffer.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BufferWriter.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipException.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/BZip2/BZip2InputStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ExtendedUnixData.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomRenameCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/PkzipClassic.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BinaryProtocol/UnPacker.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/InflaterHuffmanTree.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomCreateResCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/ProgressMessageHandler.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomKickUserCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomSendMsgCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomJoinNotifyCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Inflater.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/DefaultSFSDataSerializer.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SysHeartbeatResCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSDataType.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Tar/TarOutputStream.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSArray.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDragListResCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipNameTransform.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioLimitTimeAndCount.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioManager.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSCodecError.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/PkzipClassicEncryptCryptoTransform.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/KeyHolder.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SerializableSFSType.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/SFSError.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Checksums/Adler32.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ChangeRoomNameRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ITAudioRule.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUser.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/GZip/GZipConstants.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/PkzipClassicDecryptCryptoTransform.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/DefaultObjectDumpFormatter.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomUnlockReqCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RequestType.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/CMD.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/UseZip64.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Encryption/ZipAESStream.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ITAudioLimit.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/ObjectMessageRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/BlowFish.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioAuxFade.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/Deflater.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/LeaveRoomRequest.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomRenameNotifyCmd.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioRuleMaxTime.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomDestroyRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/RoomSetUserVarCmd.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/GetRoomListRequest.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/DeflaterConstants.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TAudioEffectRandom.cs" />
+    <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/TNetUserStatusType.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/Compression/DeflateStrategy.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/ICSharpCode/SharpZipLib/Zip/ZipEntry.cs" />
     <Compile Include="Assets/Plugins/Assembly-CSharp-firstpass/TNetSdk/KickUserRequest.cs" />
@@ -927,8 +927,11 @@
     <Reference Include="netstandard">
       <HintPath>/home/skellz/Unity/Hub/Editor/6000.0.64f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -939,14 +942,23 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll</HintPath>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -954,44 +966,17 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/home/skellz/Downloads/comdh 0.5/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
