@@ -2,7 +2,7 @@
 
 <img width="861" height="462" alt="image(1)" src="https://github.com/user-attachments/assets/f6de999c-c107-452b-a412-264a49358d0e" />
 
-### Fixed up the 0.5 beta version of Call Of Mini Dino Hunter with some improvements to make it a lot more enjoyable, below are all the changes:
+### Alright, So I've fixed up and fully revived the 0.5 beta version of Call Of Mini Dino Hunter with some improvements to make it a lot more enjoyable, below are all the changes:
 
 ##
 
@@ -40,7 +40,7 @@ better compression and the mipmaps look significantly better.]
 - **Decrease Sensitivity: I**
 
 ## For bug reports, you can join this discord server:
-### https://discord.gg/gv7Ebnmg7u<img width="861" height="462"
+### https://discord.gg/gv7Ebnmg7u
 
 
 ### Have fun and enjoy the revival! :P
