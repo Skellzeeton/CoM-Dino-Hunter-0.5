@@ -1,5 +1,4 @@
-## Fixed up the 0.5 beta version of Call Of Mini Dino Hunter with some improvements
-## to make it a lot more enjoyable, below are all the changes:
+### Fixed up the 0.5 beta version of Call Of Mini Dino Hunter with some improvements to make it a lot more enjoyable, below are all the changes:
 - **Bug fixes**
 
 - **Map fixes**
@@ -32,3 +31,5 @@ better compression and the mipmaps look significantly better.]
 - **Skill: 1**
 - **Increase Sensitivity: O**
 - **Decrease Sensitivity: I**
+
+### Have fun and enjoy the revival! :P
