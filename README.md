@@ -39,9 +39,11 @@ better compression and the mipmaps look significantly better.]
 - **Increase Sensitivity: O**
 - **Decrease Sensitivity: I**
 
+##
+
 ### Installation Instructions:
 
-### - **Android**
+### **Android**
 
 **1: Download the latest APK File from the latest release:
 https://github.com/Skellzeeton/CoM-Dino-Hunter-0.5/releases**
@@ -50,7 +52,7 @@ https://github.com/Skellzeeton/CoM-Dino-Hunter-0.5/releases**
 
 ##
 
-### - **Windows/Linux**
+### **Windows/Linux**
 
 **1: Download the latest ZIP File from the latest release for your OS:
 https://github.com/Skellzeeton/CoM-Dino-Hunter-0.5/releases**
