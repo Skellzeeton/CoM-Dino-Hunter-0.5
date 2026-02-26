@@ -2,7 +2,7 @@
 
 <img width="861" height="462" alt="image(1)" src="https://github.com/user-attachments/assets/f6de999c-c107-452b-a412-264a49358d0e" />
 
-### Alright, So I've fixed up and fully revived the 0.5 beta version of Call Of Mini Dino Hunter with some improvements to make it a lot more enjoyable, below are all the changes:
+### I've fixed up and fully revived the 0.5 beta version of Call of Mini Dino Hunter with some improvements to make it a lot more enjoyable without changing the feel of the game, below are all the changes:
 
 ##
 
@@ -38,6 +38,27 @@ better compression and the mipmaps look significantly better.]
 - **Skill: 1**
 - **Increase Sensitivity: O**
 - **Decrease Sensitivity: I**
+
+### Installation Instructions:
+
+### - **Android**
+
+**1: Download the latest APK File from the latest release:
+https://github.com/Skellzeeton/CoM-Dino-Hunter-0.5/releases**
+**2: Click on the APK File to download it**
+**3: You should be able to fully play the game now.**
+
+##
+
+### - **Windows/Linux**
+
+**1: Download the latest ZIP File from the latest release for your OS:
+https://github.com/Skellzeeton/CoM-Dino-Hunter-0.5/releases**
+**2: Right click on the ZIP File and extract it**
+**3: Run the .exe or the .x86_64 file and you should be able to fully
+play the game now.**
+
+##
 
 ***For bug reports, you can join my discord server:
 https://discord.gg/gv7Ebnmg7u***
