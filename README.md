@@ -39,8 +39,10 @@ better compression and the mipmaps look significantly better.]
 - **Increase Sensitivity: O**
 - **Decrease Sensitivity: I**
 
-### For bug reports, you can join my discord server:
-### https://discord.gg/gv7Ebnmg7u
+***For bug reports, you can join my discord server:
+https://discord.gg/gv7Ebnmg7u***
 
 
-### Have fun and enjoy the revival! :P
+
+
+## Have fun and enjoy the revival! :P
